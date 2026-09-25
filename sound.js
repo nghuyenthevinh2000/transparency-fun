@@ -7,9 +7,8 @@
  * 2. Checks local directory listing with full HTML entity decoding (e.g. serve, python http.server)
  * 3. Falls back to canonical ambient.mp3 or assets directory
  *
- * When a song completes, automatically advances to the next track in the playlist.
- * Respects browser autoplay restrictions with graceful fade-in/fade-out
- * and preserves playback continuity across page navigation via sessionStorage.
+ * Supports seamless unmuted playback on user interaction, handles strict browser
+ * autoplay policies without flashing states, and cycles automatically through the playlist.
  */
 
 const AUDIO_EXT_REGEX = /\.(?:mp3|wav|ogg|m4a|aac|flac)$/i;
@@ -94,7 +93,6 @@ export function initSoundToggle({
   const audio = document.getElementById(audioId);
   if (!button || !audio) return;
 
-  // Crucial: ensure audio.loop is false so the 'ended' event fires to advance to the next song
   audio.loop = false;
 
   const label = button.querySelector('.sound-label');
@@ -156,6 +154,23 @@ export function initSoundToggle({
     if (label) label.textContent = 'SOUND: OFF';
   }
 
+  function applySavedPosition(pos) {
+    const num = Number(pos);
+    if (!num || isNaN(num) || num <= 0) return;
+    const seek = () => {
+      try {
+        if (num < audio.duration) {
+          audio.currentTime = num;
+        }
+      } catch {}
+    };
+    if (audio.readyState >= 1) {
+      seek();
+    } else {
+      audio.addEventListener('loadedmetadata', seek, { once: true });
+    }
+  }
+
   async function loadCurrentTrack(preservePosition = false) {
     await getPlaylist();
     if (!playlist.length) return;
@@ -166,14 +181,8 @@ export function initSoundToggle({
       sessionStorage.setItem(trackUrlKey, targetUrl);
 
       if (preservePosition) {
-        const savedPos = sessionStorage.getItem(posKey);
-        if (savedPos && !isNaN(Number(savedPos))) {
-          audio.currentTime = Number(savedPos);
-        } else {
-          audio.currentTime = 0;
-        }
+        applySavedPosition(sessionStorage.getItem(posKey));
       } else {
-        audio.currentTime = 0;
         sessionStorage.setItem(posKey, '0');
       }
     }
@@ -182,6 +191,7 @@ export function initSoundToggle({
   async function playSound(preservePosition = true) {
     try {
       await loadCurrentTrack(preservePosition);
+      audio.muted = false;
       audio.volume = 0;
       await audio.play();
       consecutiveErrors = 0;
@@ -189,9 +199,8 @@ export function initSoundToggle({
       sessionStorage.setItem(storageKey, 'playing');
       fadeTo(targetVolume, fadeDurationMs);
     } catch (err) {
-      console.warn('Audio playback could not start:', err);
-      setPausedUI();
-      sessionStorage.setItem(storageKey, 'paused');
+      console.warn('Audio playback requires user gesture or error occurred:', err);
+      // Do not force paused if user wanted sound
     }
   }
 
@@ -203,40 +212,47 @@ export function initSoundToggle({
     });
   }
 
-  async function playNextTrack() {
-    if (!playlist.length) await getPlaylist();
+  // When a track completes, advance to the next song in the playlist
+  audio.addEventListener('ended', () => {
     if (playlist.length > 1) {
       currentIndex = (currentIndex + 1) % playlist.length;
       sessionStorage.setItem(posKey, '0');
-      await playSound(false);
+      loadCurrentTrack(false).then(() => {
+        audio.volume = targetVolume;
+        audio.muted = false;
+        audio.play().catch(() => {});
+      });
     } else if (playlist.length === 1) {
       audio.currentTime = 0;
-      sessionStorage.setItem(posKey, '0');
-      await playSound(false);
+      audio.play().catch(() => {});
     }
-  }
-
-  // When a track completes, advance to the next song in the playlist!
-  audio.addEventListener('ended', () => {
-    playNextTrack();
   });
 
-  // If a track errors out, try the next song in the playlist
+  // Ignore aborts; only cycle on real media errors
   audio.addEventListener('error', () => {
+    if (!audio.error || audio.error.code === 1) return;
     consecutiveErrors++;
     if (playlist.length > 1 && consecutiveErrors < playlist.length) {
       currentIndex = (currentIndex + 1) % playlist.length;
       loadCurrentTrack(false).then(() => {
-        if (sessionStorage.getItem(storageKey) === 'playing') {
-          playSound(false);
+        if (sessionStorage.getItem(storageKey) !== 'paused') {
+          audio.play().catch(() => {});
         }
       });
-    } else {
-      setPausedUI();
     }
   });
 
   button.addEventListener('click', () => {
+    // If audio is currently muted (playing muted in background waiting for gesture)
+    if (audio.muted) {
+      audio.muted = false;
+      sessionStorage.setItem(storageKey, 'playing');
+      setPlayingUI();
+      fadeTo(targetVolume, fadeDurationMs);
+      if (audio.paused) audio.play().catch(() => {});
+      return;
+    }
+
     if (audio.paused) {
       playSound(true);
     } else {
@@ -251,36 +267,43 @@ export function initSoundToggle({
 
   // Sound on by default unless explicitly paused by the user
   const isUserPaused = sessionStorage.getItem(storageKey) === 'paused';
+
   if (!isUserPaused) {
     sessionStorage.setItem(storageKey, 'playing');
     setPlayingUI();
 
     loadCurrentTrack(true).then(() => {
       audio.volume = 0;
+      audio.muted = false;
+      // Attempt unmuted play first (succeeds if domain MEI is met or user already interacted)
       audio.play().then(() => {
         consecutiveErrors = 0;
         setPlayingUI();
         fadeTo(targetVolume, fadeDurationMs);
       }).catch(() => {
-        // Modern browser autoplay restrictions block unmuted audio without user interaction.
-        // Begin playing seamlessly on the visitor's first gesture anywhere on the document.
-        const startOnFirstGesture = () => {
-          if (sessionStorage.getItem(storageKey) !== 'paused' && audio.paused) {
-            audio.play().then(() => {
-              consecutiveErrors = 0;
-              setPlayingUI();
-              fadeTo(targetVolume, fadeDurationMs);
-            }).catch(() => {});
+        // Modern browser autoplay restrictions block unmuted audio without a prior gesture.
+        // Start playing muted in the background so audio buffers and runs.
+        audio.muted = true;
+        audio.play().catch(() => {});
+
+        // Unmute and fade in on the visitor's very first interaction anywhere on the page
+        const enableSoundOnGesture = () => {
+          if (sessionStorage.getItem(storageKey) !== 'paused') {
+            audio.muted = false;
+            fadeTo(targetVolume, fadeDurationMs);
+            if (audio.paused) {
+              audio.play().catch(() => {});
+            }
           }
         };
-        ['pointerdown', 'keydown', 'touchstart', 'click'].forEach((evt) => {
-          window.addEventListener(evt, startOnFirstGesture, { once: true, passive: true });
+
+        ['pointerdown', 'touchstart', 'click', 'keydown', 'wheel'].forEach((type) => {
+          window.addEventListener(type, enableSoundOnGesture, { once: true, passive: true });
         });
       });
     });
   } else {
     setPausedUI();
-    // Pre-resolve track in background
     loadCurrentTrack(true).catch(() => {});
   }
 }
