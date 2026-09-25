@@ -29,6 +29,9 @@ button,input { font:inherit; }
 @keyframes soundBarPulse1 { 0% { height:3px; } 100% { height:11px; } }
 @keyframes soundBarPulse2 { 0% { height:12px; } 100% { height:4px; } }
 @keyframes soundBarPulse3 { 0% { height:5px; } 100% { height:10px; } }
+.github-link { display:inline-flex; align-items:center; justify-content:center; width:28px; height:28px; background:var(--paper); color:var(--ink); border:1px solid var(--ink); text-decoration:none; transition:background .2s ease,color .2s ease; }
+.github-link:hover { background:var(--ink); color:var(--paper); }
+.github-link svg { width:16px; height:16px; fill:currentColor; display:block; }
 .hero { min-height:650px; display:grid; grid-template-columns:1.2fr .8fr; gap:clamp(34px,7vw,105px); align-items:center; padding-block:76px; }
 .hero-copy { min-width:0; }
 .eyebrow,.feature-top,.feature-bottom>span,.hero-foot,.report-number,.card-open,.back-link,.report-label,.site-footer>span,.control-label,.method-note,.report-badge { font:500 11px/1.5 var(--mono); letter-spacing:.07em; text-transform:uppercase; }
@@ -104,5 +107,5 @@ a.report-card:hover { transform:translateY(-6px); }
 
 @media (max-width:1000px) { .hero { gap:35px; } h1 { font-size:clamp(59px,8vw,95px); } .feature { min-height:400px; } }
 @media (max-width:760px) { .wrap { width:min(100% - 36px,1240px); } .site-header { min-height:70px; } .site-header-actions { gap:16px; } .wordmark { font-size:22px; } .site-header nav { gap:15px; } .site-header nav a { font-size:11px; } .hero { grid-template-columns:1fr; padding-block:65px; min-height:0; gap:60px; } h1 { font-size:clamp(64px,12vw,94px); } .feature { width:min(100% - 15px,490px); justify-self:center; min-height:400px; } .intro { grid-template-columns:1fr; gap:22px; } .directory { padding-block:75px; } .report-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .section-heading { align-items:start; flex-direction:column; gap:15px; } .about { grid-template-columns:1fr; gap:35px; padding-block:70px; } .about-stamp { min-height:265px; } }
-@media (max-width:520px) { .site-header nav a:last-child { display:none; } .site-header-actions { gap:12px; } .sound-toggle { padding:5px 8px; font-size:10px; } .hero { padding-top:55px; } h1 { font-size:clamp(54px,13vw,72px); } .hero-description { font-size:16px; } .feature { min-height:390px; } .hero-foot { font-size:9px; } .hero-foot span { max-width:160px; } .report-grid { grid-template-columns:1fr; gap:38px; } .card-cover { height:320px; } .site-footer { flex-wrap:wrap; } .site-footer>span { order:3; width:100%; } }
+@media (max-width:520px) { .site-header nav a:last-child { display:none; } .site-header-actions { gap:12px; } .sound-toggle { padding:5px 8px; font-size:10px; } .github-link { width:24px; height:24px; } .github-link svg { width:14px; height:14px; } .hero { padding-top:55px; } h1 { font-size:clamp(54px,13vw,72px); } .hero-description { font-size:16px; } .feature { min-height:390px; } .hero-foot { font-size:9px; } .hero-foot span { max-width:160px; } .report-grid { grid-template-columns:1fr; gap:38px; } .card-cover { height:320px; } .site-footer { flex-wrap:wrap; } .site-footer>span { order:3; width:100%; } }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { transition-duration:.01ms !important; animation-duration:.01ms !important; } }
