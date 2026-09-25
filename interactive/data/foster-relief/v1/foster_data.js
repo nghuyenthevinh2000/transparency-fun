@@ -1,0 +1,4767 @@
+export const FOSTER_DATA = {
+  "metadata": {
+    "title": "Danh Sách Hỗ Trợ Foster SG (2024–2026)",
+    "source_file": "Danh sách hỗ trợ foster SG (2024-2026).xlsx",
+    "total_inflow": 122580000,
+    "total_disbursed": 113170000,
+    "total_admin_topup": 6975000,
+    "total_value": 119015000,
+    "total_cycles": 22,
+    "total_donors": 22,
+    "total_fosters": 42,
+    "total_foster_disbursements": 318
+  },
+  "donors_summary": {
+    "Diệu Khiết": {
+      "total_amount": 10600000,
+      "count": 13,
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "in_kind": [
+        "54 lon pate 400gr T8",
+        "pate T11",
+        "pate"
+      ]
+    },
+    "Tâm An": {
+      "total_amount": 45000000,
+      "count": 44,
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "in_kind": []
+    },
+    "Teresa Ng": {
+      "total_amount": 2500000,
+      "count": 3,
+      "years": [
+        2024
+      ],
+      "in_kind": []
+    },
+    "Diệu Hạnh": {
+      "total_amount": 500000,
+      "count": 2,
+      "years": [
+        2024
+      ],
+      "in_kind": []
+    },
+    "Phanxicô Hoàng": {
+      "total_amount": 17600000,
+      "count": 23,
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "in_kind": [
+        "Note: thuc an cun miu t89"
+      ]
+    },
+    "Diệu Trinh": {
+      "total_amount": 24400000,
+      "count": 29,
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "in_kind": []
+    },
+    "Maria (Canada)": {
+      "total_amount": 100000,
+      "count": 1,
+      "years": [
+        2024
+      ],
+      "in_kind": []
+    },
+    "Tâm Từ": {
+      "total_amount": 4000000,
+      "count": 8,
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "in_kind": []
+    },
+    "Diệu Vân": {
+      "total_amount": 550000,
+      "count": 2,
+      "years": [
+        2024
+      ],
+      "in_kind": []
+    },
+    "Gioan Tiến": {
+      "total_amount": 2560000,
+      "count": 2,
+      "years": [
+        2024
+      ],
+      "in_kind": []
+    },
+    "Thiện Nhã": {
+      "total_amount": 300000,
+      "count": 1,
+      "years": [
+        2024
+      ],
+      "in_kind": []
+    },
+    "Anrê Thịnh": {
+      "total_amount": 500000,
+      "count": 2,
+      "years": [
+        2024
+      ],
+      "in_kind": []
+    },
+    "Diệu Mỹ": {
+      "total_amount": 1470000,
+      "count": 2,
+      "years": [
+        2024
+      ],
+      "in_kind": []
+    },
+    "Diệu Thiện": {
+      "total_amount": 8000000,
+      "count": 3,
+      "years": [
+        2024,
+        2025
+      ],
+      "in_kind": []
+    },
+    "Thiện Tâm": {
+      "total_amount": 1000000,
+      "count": 2,
+      "years": [
+        2024
+      ],
+      "in_kind": [
+        "20kg hạt T9"
+      ]
+    },
+    "Catarina Đỗ": {
+      "total_amount": 1000000,
+      "count": 1,
+      "years": [
+        2024
+      ],
+      "in_kind": []
+    },
+    "Phêrô Nguyễn": {
+      "total_amount": 0,
+      "count": 1,
+      "years": [
+        2024
+      ],
+      "in_kind": [
+        "6kg hạt T10"
+      ]
+    },
+    "Phêrô Khánh": {
+      "total_amount": 500000,
+      "count": 1,
+      "years": [
+        2024
+      ],
+      "in_kind": []
+    },
+    "Phật tử Ẩn Danh": {
+      "total_amount": 1000000,
+      "count": 1,
+      "years": [
+        2025
+      ],
+      "in_kind": [
+        "ho tro tien mua hat"
+      ]
+    },
+    "Anna Thu Hiền": {
+      "total_amount": 500000,
+      "count": 1,
+      "years": [
+        2025
+      ],
+      "in_kind": []
+    },
+    "Lucia Thúy An": {
+      "total_amount": 300000,
+      "count": 1,
+      "years": [
+        2025
+      ],
+      "in_kind": []
+    },
+    "Giuse Lê": {
+      "total_amount": 200000,
+      "count": 1,
+      "years": [
+        2026
+      ],
+      "in_kind": []
+    }
+  },
+  "donors_records": [
+    {
+      "year": 2024,
+      "date": "2024-01-03",
+      "donor": "Diệu Khiết",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-02"
+    },
+    {
+      "year": 2024,
+      "date": "2024-01-09",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-02"
+    },
+    {
+      "year": 2024,
+      "date": "2024-01-19",
+      "donor": "Teresa Ng",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-02"
+    },
+    {
+      "year": 2024,
+      "date": "2024-01-22",
+      "donor": "Diệu Hạnh",
+      "amount": 300000,
+      "in_kind": null,
+      "target_month": "2024-02"
+    },
+    {
+      "year": 2024,
+      "date": "2024-01-23",
+      "donor": "Tâm An",
+      "amount": 3000000,
+      "in_kind": null,
+      "target_month": "2024-02"
+    },
+    {
+      "year": 2024,
+      "date": "2024-01-30",
+      "donor": "Phanxicô Hoàng",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-03"
+    },
+    {
+      "year": 2024,
+      "date": "2024-02-02",
+      "donor": "Diệu Trinh",
+      "amount": 1500000,
+      "in_kind": null,
+      "target_month": "2024-03"
+    },
+    {
+      "year": 2024,
+      "date": "2024-02-19",
+      "donor": "Maria (Canada)",
+      "amount": 100000,
+      "in_kind": null,
+      "target_month": "2024-03"
+    },
+    {
+      "year": 2024,
+      "date": "2024-02-20",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-03"
+    },
+    {
+      "year": 2024,
+      "date": "2024-02-26",
+      "donor": "Tâm Từ",
+      "amount": 300000,
+      "in_kind": null,
+      "target_month": "2024-03"
+    },
+    {
+      "year": 2024,
+      "date": "2024-02-28",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2024-03"
+    },
+    {
+      "year": 2024,
+      "date": "2024-03-06",
+      "donor": "Phanxicô Hoàng",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2024-05"
+    },
+    {
+      "year": 2024,
+      "date": "2024-03-07",
+      "donor": "Diệu Vân",
+      "amount": 300000,
+      "in_kind": null,
+      "target_month": "2024-05"
+    },
+    {
+      "year": 2024,
+      "date": "2024-03-09",
+      "donor": "Teresa Ng",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2024-05"
+    },
+    {
+      "year": 2024,
+      "date": "2024-03-10",
+      "donor": "Diệu Khiết",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-05"
+    },
+    {
+      "year": 2024,
+      "date": "2024-03-15",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-05"
+    },
+    {
+      "year": 2024,
+      "date": "2024-03-20",
+      "donor": "Diệu Vân",
+      "amount": 250000,
+      "in_kind": null,
+      "target_month": "2024-03"
+    },
+    {
+      "year": 2024,
+      "date": "2024-03-27",
+      "donor": "Diệu Khiết",
+      "amount": 700000,
+      "in_kind": null,
+      "target_month": "2024-05"
+    },
+    {
+      "year": 2024,
+      "date": "2024-03-27",
+      "donor": "Gioan Tiến",
+      "amount": 1560000,
+      "in_kind": null,
+      "target_month": "2024-06"
+    },
+    {
+      "year": 2024,
+      "date": "2024-03-27",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-06"
+    },
+    {
+      "year": 2024,
+      "date": "2024-04-02",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2024-07"
+    },
+    {
+      "year": 2024,
+      "date": "2024-04-03",
+      "donor": "Phanxicô Hoàng",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2024-06"
+    },
+    {
+      "year": 2024,
+      "date": "2024-04-17",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-06"
+    },
+    {
+      "year": 2024,
+      "date": "2024-05-03",
+      "donor": "Phanxicô Hoàng",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2024-07"
+    },
+    {
+      "year": 2024,
+      "date": "2024-05-04",
+      "donor": "Gioan Tiến",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-06"
+    },
+    {
+      "year": 2024,
+      "date": "2024-05-04",
+      "donor": "Teresa Ng",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-07"
+    },
+    {
+      "year": 2024,
+      "date": "2024-05-04",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2024-08"
+    },
+    {
+      "year": 2024,
+      "date": "2024-05-16",
+      "donor": "Thiện Nhã",
+      "amount": 300000,
+      "in_kind": null,
+      "target_month": "2024-07"
+    },
+    {
+      "year": 2024,
+      "date": "2024-05-18",
+      "donor": "Diệu Khiết",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-07"
+    },
+    {
+      "year": 2024,
+      "date": "2024-05-30",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-07"
+    },
+    {
+      "year": 2024,
+      "date": "2024-06-01",
+      "donor": "Diệu Hạnh",
+      "amount": 200000,
+      "in_kind": null,
+      "target_month": "2024-07"
+    },
+    {
+      "year": 2024,
+      "date": "2024-06-03",
+      "donor": "Phanxicô Hoàng",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2024-07"
+    },
+    {
+      "year": 2024,
+      "date": "2024-06-05",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2024-08"
+    },
+    {
+      "year": 2024,
+      "date": "2024-06-05",
+      "donor": "Tâm An",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2024-08"
+    },
+    {
+      "year": 2024,
+      "date": "2024-06-11",
+      "donor": "Diệu Khiết",
+      "amount": 600000,
+      "in_kind": null,
+      "target_month": "2024-08"
+    },
+    {
+      "year": 2024,
+      "date": "2024-07-02",
+      "donor": "Phanxicô Hoàng",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2024-08"
+    },
+    {
+      "year": 2024,
+      "date": "2024-07-05",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-08"
+    },
+    {
+      "year": 2024,
+      "date": "2024-07-05",
+      "donor": "Anrê Thịnh",
+      "amount": 200000,
+      "in_kind": null,
+      "target_month": "2024-08"
+    },
+    {
+      "year": 2024,
+      "date": "2024-07-05",
+      "donor": "Diệu Mỹ",
+      "amount": 840000,
+      "in_kind": null,
+      "target_month": "2024-07"
+    },
+    {
+      "year": 2024,
+      "date": "2024-07-09",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2024-09"
+    },
+    {
+      "year": 2024,
+      "date": "2024-07-12",
+      "donor": "Tâm An",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2024-10"
+    },
+    {
+      "year": 2024,
+      "date": "2024-08-01",
+      "donor": "Diệu Mỹ",
+      "amount": 630000,
+      "in_kind": null,
+      "target_month": "2024-08"
+    },
+    {
+      "year": 2024,
+      "date": "2024-08-01",
+      "donor": "Anrê Thịnh",
+      "amount": 300000,
+      "in_kind": null,
+      "target_month": "2024-09"
+    },
+    {
+      "year": 2024,
+      "date": "2024-08-04",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-09"
+    },
+    {
+      "year": 2024,
+      "date": "2024-08-04",
+      "donor": "Diệu Thiện",
+      "amount": 2000000,
+      "in_kind": null,
+      "target_month": "2024-09"
+    },
+    {
+      "year": 2024,
+      "date": "2024-08-06",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2024-10"
+    },
+    {
+      "year": 2024,
+      "date": "2024-08-07",
+      "donor": "Diệu Khiết",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-10"
+    },
+    {
+      "year": 2024,
+      "date": "2024-08-15",
+      "donor": "Phanxicô Hoàng",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-10"
+    },
+    {
+      "year": 2024,
+      "date": "2024-08-30",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-10"
+    },
+    {
+      "year": 2024,
+      "date": "2024-09-03",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2024-10"
+    },
+    {
+      "year": 2024,
+      "date": "2024-09-05",
+      "donor": "Phanxicô Hoàng",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-11"
+    },
+    {
+      "year": 2024,
+      "date": "2024-09-09",
+      "donor": "Thiện Tâm",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-11"
+    },
+    {
+      "year": 2024,
+      "date": "2024-09-10",
+      "donor": "Thiện Tâm",
+      "amount": 0,
+      "in_kind": "20kg hạt T9",
+      "target_month": "2024-09"
+    },
+    {
+      "year": 2024,
+      "date": "2024-09-10",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-11"
+    },
+    {
+      "year": 2024,
+      "date": "2024-09-11",
+      "donor": "Diệu Khiết",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2024-10"
+    },
+    {
+      "year": 2024,
+      "date": "2024-10-01",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2024-11"
+    },
+    {
+      "year": 2024,
+      "date": "2024-10-07",
+      "donor": "Catarina Đỗ",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2024-11"
+    },
+    {
+      "year": 2024,
+      "date": "2024-10-14",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-01"
+    },
+    {
+      "year": 2024,
+      "date": "2024-10-23",
+      "donor": "Tâm Từ",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2024-11"
+    },
+    {
+      "year": 2024,
+      "date": "2024-10-25",
+      "donor": "Phêrô Nguyễn",
+      "amount": 0,
+      "in_kind": "6kg hạt T10",
+      "target_month": "2024-10"
+    },
+    {
+      "year": 2024,
+      "date": "2024-11-01",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2025-01"
+    },
+    {
+      "year": 2024,
+      "date": "2024-11-05",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-01"
+    },
+    {
+      "year": 2024,
+      "date": "2024-11-06",
+      "donor": "Phanxicô Hoàng",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2025-01"
+    },
+    {
+      "year": 2024,
+      "date": "2024-12-01",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2025-01"
+    },
+    {
+      "year": 2024,
+      "date": "2024-12-03",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-01"
+    },
+    {
+      "year": 2024,
+      "date": "2024-12-07",
+      "donor": "Phanxicô Hoàng",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2025-01"
+    },
+    {
+      "year": 2024,
+      "date": "2024-12-16",
+      "donor": "Diệu Khiết",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-03"
+    },
+    {
+      "year": 2024,
+      "date": "2024-12-29",
+      "donor": "Phêrô Khánh",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2025-03"
+    },
+    {
+      "year": 2025,
+      "date": "2025-01-01",
+      "donor": "Diệu Thiện",
+      "amount": 2000000,
+      "in_kind": null,
+      "target_month": "2025-03"
+    },
+    {
+      "year": 2025,
+      "date": "2025-01-02",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-03"
+    },
+    {
+      "year": 2025,
+      "date": "2025-01-08",
+      "donor": "Phanxicô Hoàng",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-03"
+    },
+    {
+      "year": 2025,
+      "date": "2025-01-13",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2025-03"
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-03",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-05"
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-07",
+      "donor": "Phật tử Ẩn Danh",
+      "amount": 1000000,
+      "in_kind": "ho tro tien mua hat",
+      "target_month": "2025-05"
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-12",
+      "donor": "Phanxicô Hoàng",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2025-05"
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-14",
+      "donor": "Anna Thu Hiền",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2025-05"
+    },
+    {
+      "year": 2025,
+      "date": "2025-02-27",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2025-05"
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-05",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-07"
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-05",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2025-07"
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-10",
+      "donor": "Phanxicô Hoàng",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-07"
+    },
+    {
+      "year": 2025,
+      "date": "2025-03-22",
+      "donor": "Diệu Khiết",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-07"
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-02",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-08"
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-15",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2025-08"
+    },
+    {
+      "year": 2025,
+      "date": "2025-04-29",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-08"
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-02",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2025-08"
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-04",
+      "donor": "Tâm Từ",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2025-07"
+    },
+    {
+      "year": 2025,
+      "date": "2025-05-29",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-08"
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-01",
+      "donor": "Phanxicô Hoàng",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-09"
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-14",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2025-08"
+    },
+    {
+      "year": 2025,
+      "date": "2025-06-20",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-09"
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-01",
+      "donor": "Phanxicô Hoàng",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-09"
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-02",
+      "donor": "Diệu Thiện",
+      "amount": 4000000,
+      "in_kind": null,
+      "target_month": "2025-10"
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-07",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-09"
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-10",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2025-10"
+    },
+    {
+      "year": 2025,
+      "date": "2025-07-25",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-10"
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-07",
+      "donor": "Diệu Khiết",
+      "amount": 0,
+      "in_kind": "54 lon pate 400gr T8",
+      "target_month": "2025-08"
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-07",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-11"
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-28",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2025-11"
+    },
+    {
+      "year": 2025,
+      "date": "2025-08-29",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-11"
+    },
+    {
+      "year": 2025,
+      "date": "2025-09-08",
+      "donor": "Phanxicô Hoàng",
+      "amount": 2000000,
+      "in_kind": null,
+      "target_month": "2025-11"
+    },
+    {
+      "year": 2025,
+      "date": "2025-09-14",
+      "donor": "Tâm An",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2025-09"
+    },
+    {
+      "year": 2025,
+      "date": "2025-09-15",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2025-11"
+    },
+    {
+      "year": 2025,
+      "date": "2025-09-23",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-12"
+    },
+    {
+      "year": 2025,
+      "date": "2025-10-02",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2025-12"
+    },
+    {
+      "year": 2025,
+      "date": "2025-10-23",
+      "donor": "Tâm Từ",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2025-12"
+    },
+    {
+      "year": 2025,
+      "date": "2025-11-03",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2025-12"
+    },
+    {
+      "year": 2025,
+      "date": "2025-11-03",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2026-01"
+    },
+    {
+      "year": 2025,
+      "date": "2025-11-07",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2026-01"
+    },
+    {
+      "year": 2025,
+      "date": "2025-11-19",
+      "donor": "Diệu Khiết",
+      "amount": 1000000,
+      "in_kind": "pate T11",
+      "target_month": "2026-01"
+    },
+    {
+      "year": 2025,
+      "date": "2025-12-03",
+      "donor": "Tâm An",
+      "amount": 1500000,
+      "in_kind": null,
+      "target_month": "2026-03"
+    },
+    {
+      "year": 2025,
+      "date": "2025-12-08",
+      "donor": "Lucia Thúy An",
+      "amount": 300000,
+      "in_kind": null,
+      "target_month": "2025-12"
+    },
+    {
+      "year": 2025,
+      "date": "2025-12-29",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2025-12"
+    },
+    {
+      "year": 2026,
+      "date": "2026-01-01",
+      "donor": "Phanxicô Hoàng",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2026-03"
+    },
+    {
+      "year": 2026,
+      "date": "2026-01-02",
+      "donor": "Diệu Khiết",
+      "amount": 800000,
+      "in_kind": "pate",
+      "target_month": "2026-01"
+    },
+    {
+      "year": 2026,
+      "date": "2026-01-05",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2026-01"
+    },
+    {
+      "year": 2026,
+      "date": "2026-01-09",
+      "donor": "Tâm Từ",
+      "amount": 400000,
+      "in_kind": null,
+      "target_month": "2026-01"
+    },
+    {
+      "year": 2026,
+      "date": "2026-01-26",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2026-03"
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-02",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2026-03"
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-07",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2026-03"
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-07",
+      "donor": "Phanxicô Hoàng",
+      "amount": 600000,
+      "in_kind": null,
+      "target_month": "2026-04"
+    },
+    {
+      "year": 2026,
+      "date": "2026-02-13",
+      "donor": "Tâm Từ",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2026-03"
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-04",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2026-04"
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-17",
+      "donor": "Phanxicô Hoàng",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2026-03"
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-20",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2026-04"
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-25",
+      "donor": "Diệu Trinh",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2026-04"
+    },
+    {
+      "year": 2026,
+      "date": "2026-03-27",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2026-04"
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-03",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2026-04"
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-03",
+      "donor": "Phanxicô Hoàng",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2026-06"
+    },
+    {
+      "year": 2026,
+      "date": "2026-04-28",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2026-06"
+    },
+    {
+      "year": 2026,
+      "date": "2026-05-11",
+      "donor": "Phanxicô Hoàng",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": "2026-06"
+    },
+    {
+      "year": 2026,
+      "date": "2026-06-02",
+      "donor": "Diệu Trinh",
+      "amount": 1600000,
+      "in_kind": null,
+      "target_month": "2026-06"
+    },
+    {
+      "year": 2026,
+      "date": "2026-06-03",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2026-06"
+    },
+    {
+      "year": 2026,
+      "date": "2026-06-12",
+      "donor": "Tâm Từ",
+      "amount": 300000,
+      "in_kind": null,
+      "target_month": "2026-08"
+    },
+    {
+      "year": 2026,
+      "date": "2026-06-30",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2026-06"
+    },
+    {
+      "year": 2026,
+      "date": "2026-07-03",
+      "donor": "Giuse Lê",
+      "amount": 200000,
+      "in_kind": null,
+      "target_month": "2026-08"
+    },
+    {
+      "year": 2026,
+      "date": "2026-07-06",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": "2026-08"
+    },
+    {
+      "year": 2026,
+      "date": "2026-07-10",
+      "donor": "Phanxicô Hoàng",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2026-08"
+    },
+    {
+      "year": 2026,
+      "date": "2026-07-31",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2026-08"
+    },
+    {
+      "year": 2026,
+      "date": "2026-08-02",
+      "donor": "Diệu Khiết",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2026-08"
+    },
+    {
+      "year": 2026,
+      "date": "2026-08-04",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": "2026-08"
+    },
+    {
+      "year": 2026,
+      "date": "2026-08-10",
+      "donor": "Tâm Từ",
+      "amount": 500000,
+      "in_kind": null,
+      "target_month": ""
+    },
+    {
+      "year": 2026,
+      "date": "2026-08-14",
+      "donor": "Diệu Trinh",
+      "amount": 800000,
+      "in_kind": null,
+      "target_month": ""
+    },
+    {
+      "year": 2026,
+      "date": "2026-08-24",
+      "donor": "Phanxicô Hoàng",
+      "amount": 1000000,
+      "in_kind": "Note: thuc an cun miu t89",
+      "target_month": ""
+    },
+    {
+      "year": 2026,
+      "date": "2026-08-30",
+      "donor": "Tâm An",
+      "amount": 1000000,
+      "in_kind": null,
+      "target_month": ""
+    }
+  ],
+  "fosters_summary": {
+    "ngoại Tịnh Tâm": {
+      "district": "Q1",
+      "total_portions": 14.0,
+      "cycles_count": 14,
+      "cycles": [
+        "T02/2024",
+        "T03/2024",
+        "T05/2024",
+        "T06/2024",
+        "T07/2024",
+        "T08/2024",
+        "T09/2024",
+        "T10/2024",
+        "T01/2025",
+        "T03/2025",
+        "T05/2025",
+        "T07/2025",
+        "T08/2025",
+        "T12/2025"
+      ]
+    },
+    "cô Maria Sinh": {
+      "district": "Q1",
+      "total_portions": 20.0,
+      "cycles_count": 20,
+      "cycles": [
+        "T02/2024",
+        "T05/2024",
+        "T07/2024",
+        "T08/2024",
+        "T09/2024",
+        "T10/2024",
+        "T11/2024",
+        "T01/2025",
+        "T03/2025",
+        "T05/2025",
+        "T07/2025",
+        "T08/2025",
+        "T09/2025",
+        "T10/2025",
+        "T11/2025",
+        "T12/2025",
+        "T01/2026",
+        "T03/2026",
+        "T04/2026",
+        "T06/2026"
+      ]
+    },
+    "cô Diệu Liên": {
+      "district": "Q1",
+      "total_portions": 20.0,
+      "cycles_count": 20,
+      "cycles": [
+        "T02/2024",
+        "T05/2024",
+        "T07/2024",
+        "T08/2024",
+        "T09/2024",
+        "T10/2024",
+        "T11/2024",
+        "T01/2025",
+        "T03/2025",
+        "T05/2025",
+        "T07/2025",
+        "T08/2025",
+        "T09/2025",
+        "T10/2025",
+        "T11/2025",
+        "T12/2025",
+        "T01/2026",
+        "T03/2026",
+        "T04/2026",
+        "T06/2026"
+      ]
+    },
+    "cô Diệu Hạnh": {
+      "district": "Q5",
+      "total_portions": 20.0,
+      "cycles_count": 20,
+      "cycles": [
+        "T02/2024",
+        "T05/2024",
+        "T07/2024",
+        "T08/2024",
+        "T09/2024",
+        "T10/2024",
+        "T11/2024",
+        "T01/2025",
+        "T03/2025",
+        "T05/2025",
+        "T07/2025",
+        "T08/2025",
+        "T09/2025",
+        "T10/2025",
+        "T11/2025",
+        "T12/2025",
+        "T01/2026",
+        "T03/2026",
+        "T04/2026",
+        "T06/2026"
+      ]
+    },
+    "cô Maria Đào": {
+      "district": "Q5",
+      "total_portions": 18.0,
+      "cycles_count": 18,
+      "cycles": [
+        "T02/2024",
+        "T05/2024",
+        "T07/2024",
+        "T08/2024",
+        "T09/2024",
+        "T10/2024",
+        "T01/2025",
+        "T03/2025",
+        "T05/2025",
+        "T07/2025",
+        "T08/2025",
+        "T09/2025",
+        "T10/2025",
+        "T11/2025",
+        "T01/2026",
+        "T03/2026",
+        "T04/2026",
+        "T06/2026"
+      ]
+    },
+    "Về con mòe / Monica Quế Trân": {
+      "district": "Q2",
+      "total_portions": 1.0,
+      "cycles_count": 1,
+      "cycles": [
+        "T02/2024"
+      ]
+    },
+    "cô Diệu Kim": {
+      "district": "Q8",
+      "total_portions": 7.0,
+      "cycles_count": 7,
+      "cycles": [
+        "T02/2024",
+        "T03/2024",
+        "T09/2024",
+        "T10/2024",
+        "T11/2024",
+        "T11/2025",
+        "T03/2026"
+      ]
+    },
+    "cô Diệu Huệ": {
+      "district": "Bình Tân",
+      "total_portions": 5.0,
+      "cycles_count": 5,
+      "cycles": [
+        "T02/2024",
+        "T05/2024",
+        "T06/2024",
+        "T07/2024",
+        "T08/2024"
+      ]
+    },
+    "cô Anna Thị Nghè": {
+      "district": "Bình Thạnh",
+      "total_portions": 2.0,
+      "cycles_count": 2,
+      "cycles": [
+        "T02/2024",
+        "T03/2024"
+      ]
+    },
+    "chị Martha & chị Maria": {
+      "district": "Bình Tân",
+      "total_portions": 22.0,
+      "cycles_count": 21,
+      "cycles": [
+        "T02/2024",
+        "T03/2024",
+        "T05/2024",
+        "T06/2024",
+        "T07/2024",
+        "T08/2024",
+        "T10/2024",
+        "T11/2024",
+        "T01/2025",
+        "T03/2025",
+        "T05/2025",
+        "T07/2025",
+        "T08/2025",
+        "T09/2025",
+        "T10/2025",
+        "T11/2025",
+        "T12/2025",
+        "T01/2026",
+        "T03/2026",
+        "T04/2026",
+        "T06/2026"
+      ]
+    },
+    "chị Maria Nguyên + dì Tư": {
+      "district": "Tân Phú",
+      "total_portions": 4.0,
+      "cycles_count": 2,
+      "cycles": [
+        "T02/2024",
+        "T05/2024"
+      ]
+    },
+    "chị Diệu Thảo": {
+      "district": "Điều phối liên quận",
+      "total_portions": 62.0,
+      "cycles_count": 22,
+      "cycles": [
+        "T02/2024",
+        "T03/2024",
+        "T05/2024",
+        "T06/2024",
+        "T07/2024",
+        "T08/2024",
+        "T09/2024",
+        "T10/2024",
+        "T11/2024",
+        "T01/2025",
+        "T03/2025",
+        "T05/2025",
+        "T07/2025",
+        "T08/2025",
+        "T09/2025",
+        "T10/2025",
+        "T11/2025",
+        "T12/2025",
+        "T01/2026",
+        "T03/2026",
+        "T04/2026",
+        "T06/2026"
+      ]
+    },
+    "Catarina Trúc Linh": {
+      "district": "Điều phối liên quận",
+      "total_portions": 64.0,
+      "cycles_count": 22,
+      "cycles": [
+        "T02/2024",
+        "T03/2024",
+        "T05/2024",
+        "T06/2024",
+        "T07/2024",
+        "T08/2024",
+        "T09/2024",
+        "T10/2024",
+        "T11/2024",
+        "T01/2025",
+        "T03/2025",
+        "T05/2025",
+        "T07/2025",
+        "T08/2025",
+        "T09/2025",
+        "T10/2025",
+        "T11/2025",
+        "T12/2025",
+        "T01/2026",
+        "T03/2026",
+        "T04/2026",
+        "T06/2026"
+      ]
+    },
+    "Maria Phạm": {
+      "district": "Điều phối liên quận",
+      "total_portions": 42.0,
+      "cycles_count": 22,
+      "cycles": [
+        "T02/2024",
+        "T03/2024",
+        "T05/2024",
+        "T06/2024",
+        "T07/2024",
+        "T08/2024",
+        "T09/2024",
+        "T10/2024",
+        "T11/2024",
+        "T01/2025",
+        "T03/2025",
+        "T05/2025",
+        "T07/2025",
+        "T08/2025",
+        "T09/2025",
+        "T10/2025",
+        "T11/2025",
+        "T12/2025",
+        "T01/2026",
+        "T03/2026",
+        "T04/2026",
+        "T06/2026"
+      ]
+    },
+    "Nhà Mèo Thiện Tâm": {
+      "district": "Q7",
+      "total_portions": 1.0,
+      "cycles_count": 1,
+      "cycles": [
+        "T03/2024"
+      ]
+    },
+    "cô Diệu Hạnh / Hồng Ánh": {
+      "district": "Q8",
+      "total_portions": 5.0,
+      "cycles_count": 5,
+      "cycles": [
+        "T03/2024",
+        "T07/2024",
+        "T08/2024",
+        "T01/2025",
+        "T09/2025"
+      ]
+    },
+    "Teresa Dung": {
+      "district": "Bình Thạnh",
+      "total_portions": 5.0,
+      "cycles_count": 5,
+      "cycles": [
+        "T03/2024",
+        "T06/2024",
+        "T01/2025",
+        "T12/2025",
+        "T04/2026"
+      ]
+    },
+    "chị Teresa Phương": {
+      "district": "Bình Thạnh",
+      "total_portions": 4.0,
+      "cycles_count": 4,
+      "cycles": [
+        "T03/2024",
+        "T06/2024",
+        "T01/2026",
+        "T03/2026"
+      ]
+    },
+    "chị Tâm Lạc (vé số)": {
+      "district": "Tân Bình",
+      "total_portions": 12.0,
+      "cycles_count": 12,
+      "cycles": [
+        "T03/2024",
+        "T06/2024",
+        "T08/2024",
+        "T08/2025",
+        "T09/2025",
+        "T10/2025",
+        "T11/2025",
+        "T12/2025",
+        "T01/2026",
+        "T03/2026",
+        "T04/2026",
+        "T06/2026"
+      ]
+    },
+    "cô Maria Đông Anh": {
+      "district": "Điều phối liên quận",
+      "total_portions": 32.0,
+      "cycles_count": 15,
+      "cycles": [
+        "T03/2024",
+        "T05/2024",
+        "T07/2024",
+        "T09/2024",
+        "T03/2025",
+        "T05/2025",
+        "T07/2025",
+        "T08/2025",
+        "T09/2025",
+        "T10/2025",
+        "T11/2025",
+        "T12/2025",
+        "T01/2026",
+        "T03/2026",
+        "T06/2026"
+      ]
+    },
+    "Anna Hương": {
+      "district": "Q7",
+      "total_portions": 1.0,
+      "cycles_count": 1,
+      "cycles": [
+        "T06/2024"
+      ]
+    },
+    "chị Diệu Hồng": {
+      "district": "Tân Phú",
+      "total_portions": 9.0,
+      "cycles_count": 8,
+      "cycles": [
+        "T06/2024",
+        "T07/2024",
+        "T10/2024",
+        "T03/2025",
+        "T05/2025",
+        "T08/2025",
+        "T11/2025",
+        "T03/2026"
+      ]
+    },
+    "chị Maria Nguyên": {
+      "district": "Tân Phú",
+      "total_portions": 9.0,
+      "cycles_count": 9,
+      "cycles": [
+        "T07/2024",
+        "T10/2024",
+        "T03/2025",
+        "T05/2025",
+        "T07/2025",
+        "T08/2025",
+        "T11/2025",
+        "T03/2026",
+        "T06/2026"
+      ]
+    },
+    "cô Diệu Thanh": {
+      "district": "Q5",
+      "total_portions": 2.0,
+      "cycles_count": 2,
+      "cycles": [
+        "T08/2024",
+        "T07/2025"
+      ]
+    },
+    "chị Teresa Thủy": {
+      "district": "Q1",
+      "total_portions": 14.0,
+      "cycles_count": 14,
+      "cycles": [
+        "T09/2024",
+        "T10/2024",
+        "T11/2024",
+        "T01/2025",
+        "T03/2025",
+        "T05/2025",
+        "T07/2025",
+        "T08/2025",
+        "T09/2025",
+        "T10/2025",
+        "T11/2025",
+        "T12/2025",
+        "T01/2026",
+        "T03/2026"
+      ]
+    },
+    "cô Tư / Teresa Trinh": {
+      "district": "Q8",
+      "total_portions": 7.0,
+      "cycles_count": 7,
+      "cycles": [
+        "T09/2024",
+        "T10/2024",
+        "T11/2024",
+        "T01/2025",
+        "T05/2025",
+        "T11/2025",
+        "T03/2026"
+      ]
+    },
+    "chị Phúc An": {
+      "district": "Q11",
+      "total_portions": 6.0,
+      "cycles_count": 6,
+      "cycles": [
+        "T09/2024",
+        "T10/2024",
+        "T01/2026",
+        "T03/2026",
+        "T04/2026",
+        "T06/2026"
+      ]
+    },
+    "chị Clara Gia Hân": {
+      "district": "Q12",
+      "total_portions": 1.0,
+      "cycles_count": 1,
+      "cycles": [
+        "T11/2024"
+      ]
+    },
+    "chị Diệu Không": {
+      "district": "Thủ Đức",
+      "total_portions": 1.0,
+      "cycles_count": 1,
+      "cycles": [
+        "T11/2024"
+      ]
+    },
+    "Agnes Lê": {
+      "district": "Bình Tân",
+      "total_portions": 6.0,
+      "cycles_count": 6,
+      "cycles": [
+        "T11/2024",
+        "T03/2025",
+        "T07/2025",
+        "T10/2025",
+        "T11/2025",
+        "T01/2026"
+      ]
+    },
+    "cô Diệu Hoa": {
+      "district": "Q1",
+      "total_portions": 8.0,
+      "cycles_count": 8,
+      "cycles": [
+        "T09/2025",
+        "T10/2025",
+        "T11/2025",
+        "T12/2025",
+        "T01/2026",
+        "T03/2026",
+        "T04/2026",
+        "T06/2026"
+      ]
+    },
+    "cô Diệu Giang": {
+      "district": "Sài Gòn",
+      "total_portions": 4.0,
+      "cycles_count": 4,
+      "cycles": [
+        "T09/2025",
+        "T10/2025",
+        "T11/2025",
+        "T03/2026"
+      ]
+    },
+    "Cecilia Linh": {
+      "district": "Gò Vấp",
+      "total_portions": 1.0,
+      "cycles_count": 1,
+      "cycles": [
+        "T12/2025"
+      ]
+    },
+    "chị Diệu Ngọc": {
+      "district": "Sài Gòn",
+      "total_portions": 2.0,
+      "cycles_count": 2,
+      "cycles": [
+        "T12/2025",
+        "T01/2026"
+      ]
+    },
+    "Nhóm 4 cô (Têrêsa & Tâm An)": {
+      "district": "Q10",
+      "total_portions": 2.0,
+      "cycles_count": 1,
+      "cycles": [
+        "T12/2025"
+      ]
+    },
+    "Lucia Huỳnh": {
+      "district": "Nhà Bè",
+      "total_portions": 2.0,
+      "cycles_count": 2,
+      "cycles": [
+        "T01/2026",
+        "T04/2026"
+      ]
+    },
+    "Quảng Thiện": {
+      "district": "Sài Gòn",
+      "total_portions": 1.0,
+      "cycles_count": 1,
+      "cycles": [
+        "T01/2026"
+      ]
+    },
+    "cô Diệu Tuyết": {
+      "district": "Q1",
+      "total_portions": 2.0,
+      "cycles_count": 2,
+      "cycles": [
+        "T04/2026",
+        "T06/2026"
+      ]
+    },
+    "cô Diệu Chi": {
+      "district": "Q8",
+      "total_portions": 1.0,
+      "cycles_count": 1,
+      "cycles": [
+        "T04/2026"
+      ]
+    },
+    "Gioan Baotixita Khánh": {
+      "district": "Bình Chánh",
+      "total_portions": 1.0,
+      "cycles_count": 1,
+      "cycles": [
+        "T04/2026"
+      ]
+    },
+    "chị Têrêsa Sáu": {
+      "district": "Sài Gòn",
+      "total_portions": 1.0,
+      "cycles_count": 1,
+      "cycles": [
+        "T06/2026"
+      ]
+    },
+    "Monica Quế Trân": {
+      "district": "Q2",
+      "total_portions": 1.0,
+      "cycles_count": 1,
+      "cycles": [
+        "T06/2026"
+      ]
+    }
+  },
+  "cycles": [
+    {
+      "code": "022024",
+      "label": "T02/2024",
+      "year": 2024,
+      "month": 2,
+      "title": "QUÀ T2/2024",
+      "used_fund": 6300000,
+      "admin_topup": 0,
+      "total_value": 6300000,
+      "total_gifts": 20,
+      "supplies_per_gift": "7.5kg hạt",
+      "supplies": [
+        {
+          "item": "10 tải hạt Wonder 15kg",
+          "unit_price": 6300000,
+          "total_cost": 20
+        }
+      ],
+      "sponsor_notes": "Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 14,
+      "fosters": [
+        {
+          "name": "ngoại Tịnh Tâm",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Maria Đào",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "Về con mòe / Monica Quế Trân",
+          "district": "Q2",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "cô Diệu Kim",
+          "district": "Q8",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "7"
+        },
+        {
+          "name": "cô Diệu Huệ",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "cô Anna Thị Nghè",
+          "district": "Bình Thạnh",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "10"
+        },
+        {
+          "name": "chị Maria Nguyên + dì Tư",
+          "district": "Tân Phú",
+          "portions": 2.0,
+          "note": null,
+          "drive_stt": "11"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "13-15"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "16-18"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "19-20"
+        }
+      ]
+    },
+    {
+      "code": "032024",
+      "label": "T03/2024",
+      "year": 2024,
+      "month": 3,
+      "title": "QUÀ T3/2024",
+      "used_fund": 4950000,
+      "admin_topup": 350000,
+      "total_value": 5300000,
+      "total_gifts": 20,
+      "supplies_per_gift": "7.5kg hạt",
+      "supplies": [
+        {
+          "item": "10 tải hạt Wonder sale 15kg",
+          "unit_price": 5300000,
+          "total_cost": 20
+        }
+      ],
+      "sponsor_notes": "Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 13,
+      "fosters": [
+        {
+          "name": "ngoại Tịnh Tâm",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "Nhà Mèo Thiện Tâm",
+          "district": "Q7",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Hạnh / Hồng Ánh",
+          "district": "Q8",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "cô Diệu Kim",
+          "district": "Q8",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Anna Thị Nghè",
+          "district": "Bình Thạnh",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "Teresa Dung",
+          "district": "Bình Thạnh",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "chị Teresa Phương",
+          "district": "Bình Thạnh",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "7"
+        },
+        {
+          "name": "chị Tâm Lạc (vé số)",
+          "district": "Tân Bình",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "cô Maria Đông Anh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "2026-12-10 00:00:00"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "13-15"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "16-18"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "19-20"
+        }
+      ]
+    },
+    {
+      "code": "052024",
+      "label": "T05/2024",
+      "year": 2024,
+      "month": 5,
+      "title": "QUÀ T5/2024",
+      "used_fund": 4700000,
+      "admin_topup": 0,
+      "total_value": 3570000,
+      "total_gifts": 21,
+      "supplies_per_gift": "5kg hạt",
+      "supplies": [
+        {
+          "item": "7 tải hạt Wonder sale 15kg",
+          "unit_price": 3570000,
+          "total_cost": null
+        },
+        {
+          "item": "5 thùng pate Loveat",
+          "unit_price": 1270000,
+          "total_cost": null
+        },
+        {
+          "item": "6 lon lẻ pate Loveat",
+          "unit_price": 60000,
+          "total_cost": null
+        }
+      ],
+      "sponsor_notes": "Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 12,
+      "fosters": [
+        {
+          "name": "ngoại Tịnh Tâm",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Maria Đào",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "cô Diệu Huệ",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 2.0,
+          "note": null,
+          "drive_stt": "2026-08-07 00:00:00"
+        },
+        {
+          "name": "chị Maria Nguyên + dì Tư",
+          "district": "Tân Phú",
+          "portions": 2.0,
+          "note": null,
+          "drive_stt": "2026-10-09 00:00:00"
+        },
+        {
+          "name": "cô Maria Đông Anh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "11-13"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "14-16"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "17-19"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "20-21"
+        }
+      ]
+    },
+    {
+      "code": "062024",
+      "label": "T06/2024",
+      "year": 2024,
+      "month": 6,
+      "title": "QUÀ T6/2024",
+      "used_fund": 5050000,
+      "admin_topup": 150000,
+      "total_value": 5200000,
+      "total_gifts": 16,
+      "supplies_per_gift": "9kg hạt",
+      "supplies": [
+        {
+          "item": "16 tải hạt Hypro 9kg",
+          "unit_price": 5200000,
+          "total_cost": 16
+        }
+      ],
+      "sponsor_notes": "Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 11,
+      "fosters": [
+        {
+          "name": "ngoại Tịnh Tâm",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "Anna Hương",
+          "district": "Q7",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "chị Tâm Lạc (vé số)",
+          "district": "Tân Bình",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Diệu Huệ",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": "đổi loại hạt theo yêu cầu foster (foster tự bù thêm)",
+          "drive_stt": "5"
+        },
+        {
+          "name": "Teresa Dung",
+          "district": "Bình Thạnh",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "chị Teresa Phương",
+          "district": "Bình Thạnh",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "7"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Tân Phú",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "chị Diệu Hồng",
+          "district": "Tân Phú",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "2026-10-09 00:00:00"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "11-13"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "14-16"
+        }
+      ]
+    },
+    {
+      "code": "072024",
+      "label": "T07/2024",
+      "year": 2024,
+      "month": 7,
+      "title": "QUÀ T7/2024",
+      "used_fund": 6140000,
+      "admin_topup": 360000,
+      "total_value": 6500000,
+      "total_gifts": 20,
+      "supplies_per_gift": "9kg hạt",
+      "supplies": [
+        {
+          "item": "20 tải hạt Hypro 9kg",
+          "unit_price": 6500000,
+          "total_cost": 20
+        }
+      ],
+      "sponsor_notes": "Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 14,
+      "fosters": [
+        {
+          "name": "ngoại Tịnh Tâm",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Maria Đào",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": "đổi loại hạt theo yêu cầu foster (foster tự bù thêm)",
+          "drive_stt": "5"
+        },
+        {
+          "name": "cô Diệu Hạnh / Hồng Ánh",
+          "district": "Q8",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "cô Diệu Huệ",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "7"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "chị Maria Nguyên",
+          "district": "Tân Phú",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "chị Diệu Hồng",
+          "district": "Tân Phú",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "10"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "11-13"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "14-16"
+        },
+        {
+          "name": "cô Maria Đông Anh",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "17-18"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "19-20"
+        }
+      ]
+    },
+    {
+      "code": "082024",
+      "label": "T08/2024",
+      "year": 2024,
+      "month": 8,
+      "title": "QUÀ T8/2024",
+      "used_fund": 5030000,
+      "admin_topup": 154000,
+      "total_value": 5184000,
+      "total_gifts": 18,
+      "supplies_per_gift": "8kg hạt",
+      "supplies": [
+        {
+          "item": "18 tải hạt Eurochef 8kg",
+          "unit_price": 5184000,
+          "total_cost": 18
+        }
+      ],
+      "sponsor_notes": "Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 13,
+      "fosters": [
+        {
+          "name": "ngoại Tịnh Tâm",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Maria Đào",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "cô Diệu Thanh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "cô Diệu Hạnh / Hồng Ánh",
+          "district": "Bình Chánh",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "7"
+        },
+        {
+          "name": "cô Diệu Huệ",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "chị Tâm Lạc (vé số)",
+          "district": "Tân Bình",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "10"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "11-13"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "14-16"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "19-20"
+        }
+      ]
+    },
+    {
+      "code": "092024",
+      "label": "T09/2024",
+      "year": 2024,
+      "month": 9,
+      "title": "QUÀ T9/2024",
+      "used_fund": 4100000,
+      "admin_topup": 340000,
+      "total_value": 4440000,
+      "total_gifts": 20,
+      "supplies_per_gift": "6kg hạt Eurochef",
+      "supplies": [
+        {
+          "item": "120kg hạt Eurochef",
+          "unit_price": 4440000,
+          "total_cost": 20
+        }
+      ],
+      "sponsor_notes": "Thêm: 20kg hạt Maxime - MTQ Thiện Tâm ; Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 13,
+      "fosters": [
+        {
+          "name": "ngoại Tịnh Tâm",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "chị Teresa Thủy",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "cô Maria Đào",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "cô Diệu Kim",
+          "district": "Q8",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "7"
+        },
+        {
+          "name": "cô Tư / Teresa Trinh",
+          "district": "Q8",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "chị Phúc An",
+          "district": "Q11",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "cô Maria Đông Anh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "2026-12-10 00:00:00"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "13-15"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "16-18"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "19-20"
+        }
+      ]
+    },
+    {
+      "code": "102024",
+      "label": "T10/2024",
+      "year": 2024,
+      "month": 10,
+      "title": "QUÀ T10/2024",
+      "used_fund": 5600000,
+      "admin_topup": 98000,
+      "total_value": 5698000,
+      "total_gifts": 20,
+      "supplies_per_gift": "8kg hạt Eurochef",
+      "supplies": [
+        {
+          "item": "154kg hạt Eurochef",
+          "unit_price": 5698000,
+          "total_cost": 20
+        }
+      ],
+      "sponsor_notes": "Thêm: 6kg hạt Eurochef- MTQ Phêrô Nguyễn ; Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 15,
+      "fosters": [
+        {
+          "name": "ngoại Tịnh Tâm",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "chị Teresa Thủy",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "cô Maria Đào",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "cô Diệu Kim",
+          "district": "Q8",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "7"
+        },
+        {
+          "name": "cô Tư / Teresa Trinh",
+          "district": "Q8",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "chị Phúc An",
+          "district": "Q11",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "10"
+        },
+        {
+          "name": "chị Maria Nguyên",
+          "district": "Tân Phú",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "11"
+        },
+        {
+          "name": "chị Diệu Hồng",
+          "district": "Tân Phú",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "12"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "13-15"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "16-18"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "19-20"
+        }
+      ]
+    },
+    {
+      "code": "112024",
+      "label": "T11/2024",
+      "year": 2024,
+      "month": 11,
+      "title": "QUÀ T11/2024",
+      "used_fund": 5300000,
+      "admin_topup": 28000,
+      "total_value": 5328000,
+      "total_gifts": 18,
+      "supplies_per_gift": "8kg hạt Nutri",
+      "supplies": [
+        {
+          "item": "144kg hạt Nutri",
+          "unit_price": 5328000,
+          "total_cost": 18
+        }
+      ],
+      "sponsor_notes": "Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 13,
+      "fosters": [
+        {
+          "name": "chị Clara Gia Hân",
+          "district": "Q12",
+          "portions": 1.0,
+          "note": "đổi hạt Smile",
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "chị Teresa Thủy",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "chị Diệu Không",
+          "district": "Thủ Đức",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "cô Diệu Kim",
+          "district": "Q8",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "7"
+        },
+        {
+          "name": "cô Tư / Teresa Trinh",
+          "district": "Q8",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "Agnes Lê",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "10"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "11-13"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "14-16"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "17-18"
+        }
+      ]
+    },
+    {
+      "code": "012025",
+      "label": "T01/2025",
+      "year": 2025,
+      "month": 1,
+      "title": "QUÀ T1/2025",
+      "used_fund": 5600000,
+      "admin_topup": 16000,
+      "total_value": 5616000,
+      "total_gifts": 18,
+      "supplies_per_gift": "8kg hạt Smile",
+      "supplies": [
+        {
+          "item": "144kg hạt Smile",
+          "unit_price": 5616000,
+          "total_cost": 18
+        }
+      ],
+      "sponsor_notes": "Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 13,
+      "fosters": [
+        {
+          "name": "ngoại Tịnh Tâm",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": "đổi hạt Smile",
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "chị Teresa Thủy",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "cô Maria Đào",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "cô Tư / Teresa Trinh",
+          "district": "Q8",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "7"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "Teresa Dung",
+          "district": "Bình Thạnh",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "cô Diệu Hạnh / Hồng Ánh",
+          "district": "Bình Chánh",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "10"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "11-13"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "14-16"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "17-18"
+        }
+      ]
+    },
+    {
+      "code": "032025",
+      "label": "T03/2025",
+      "year": 2025,
+      "month": 3,
+      "title": "QUÀ T3/2025",
+      "used_fund": 6300000,
+      "admin_topup": 430000,
+      "total_value": 6730000,
+      "total_gifts": 20,
+      "supplies_per_gift": "6kg hạt Smile",
+      "supplies": [
+        {
+          "item": "6 tải hạt Smile 20kg",
+          "unit_price": 4680000,
+          "total_cost": 6730000
+        },
+        {
+          "item": "100 lon pate Kucinta 400gr",
+          "unit_price": 2050000,
+          "total_cost": null
+        }
+      ],
+      "sponsor_notes": "Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 14,
+      "fosters": [
+        {
+          "name": "ngoại Tịnh Tâm",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "chị Teresa Thủy",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "cô Maria Đào",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "Agnes Lê",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "7"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "chị Maria Nguyên",
+          "district": "Tân Phú",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "chị Diệu Hồng",
+          "district": "Tân Phú",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "10"
+        },
+        {
+          "name": "cô Maria Đông Anh",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "2026-12-11 00:00:00"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "13-15"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "16-18"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "19-20"
+        }
+      ]
+    },
+    {
+      "code": "052025",
+      "label": "T05/2025",
+      "year": 2025,
+      "month": 5,
+      "title": "QUÀ T5/2025",
+      "used_fund": 3800000,
+      "admin_topup": 700000,
+      "total_value": 4500000,
+      "total_gifts": 20,
+      "supplies_per_gift": "5kg hạt Tommy",
+      "supplies": [
+        {
+          "item": "5 tải hạt Tommy sale 20kg",
+          "unit_price": 3300000,
+          "total_cost": 4500000
+        },
+        {
+          "item": "5 thùng pate Catfood 48 lon 125gr",
+          "unit_price": 1200000,
+          "total_cost": null
+        }
+      ],
+      "sponsor_notes": "Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 14,
+      "fosters": [
+        {
+          "name": "ngoại Tịnh Tâm",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "chị Teresa Thủy",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "cô Maria Đào",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "cô Tư / Teresa Trinh",
+          "district": "Q8",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "7"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "chị Maria Nguyên",
+          "district": "Tân Phú",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "chị Diệu Hồng",
+          "district": "Tân Phú",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "10"
+        },
+        {
+          "name": "cô Maria Đông Anh",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "2026-12-11 00:00:00"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "13-15"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "16-18"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "19-20"
+        }
+      ]
+    },
+    {
+      "code": "072025",
+      "label": "T07/2025",
+      "year": 2025,
+      "month": 7,
+      "title": "QUÀ T7/2025",
+      "used_fund": 4300000,
+      "admin_topup": 275000,
+      "total_value": 4575000,
+      "total_gifts": 20,
+      "supplies_per_gift": "5kg hạt Tommy",
+      "supplies": [
+        {
+          "item": "5 tải hạt Tommy 20kg",
+          "unit_price": 3375000,
+          "total_cost": 4575000
+        },
+        {
+          "item": "5 thùng pate Catfood 48 lon 125gr",
+          "unit_price": 1200000,
+          "total_cost": null
+        }
+      ],
+      "sponsor_notes": "Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 14,
+      "fosters": [
+        {
+          "name": "ngoại Tịnh Tâm",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "chị Teresa Thủy",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "cô Maria Đào",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "cô Diệu Thanh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "7"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "Agnes Lê",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "chị Maria Nguyên",
+          "district": "Tân Phú",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "10"
+        },
+        {
+          "name": "cô Maria Đông Anh",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "2026-12-11 00:00:00"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "13-15"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "16-18"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "19-20"
+        }
+      ]
+    },
+    {
+      "code": "082025",
+      "label": "T08/2025",
+      "year": 2025,
+      "month": 8,
+      "title": "QUÀ T8/2025",
+      "used_fund": 5400000,
+      "admin_topup": 324000,
+      "total_value": 5724000,
+      "total_gifts": 18,
+      "supplies_per_gift": "10kg hạt Josicat",
+      "supplies": [
+        {
+          "item": "18 tải hạt mèo con Josicat 10kg",
+          "unit_price": 5724000,
+          "total_cost": 18
+        }
+      ],
+      "sponsor_notes": "Thêm: 54 lon pate 400gr - MTQ Diệu Khiết ; Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 14,
+      "fosters": [
+        {
+          "name": "ngoại Tịnh Tâm",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "chị Teresa Thủy",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "cô Maria Đào",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "chị Tâm Lạc (vé số)",
+          "district": "Tân Bình",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "7"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "chị Diệu Hồng",
+          "district": "Tân Phú",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "chị Maria Nguyên",
+          "district": "Tân Phú",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "10"
+        },
+        {
+          "name": "cô Maria Đông Anh",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "2026-12-11 00:00:00"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "13-14"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "15-16"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "17-18"
+        }
+      ]
+    },
+    {
+      "code": "092025",
+      "label": "T09/2025",
+      "year": 2025,
+      "month": 9,
+      "title": "QUÀ T9/2025",
+      "used_fund": 4500000,
+      "admin_topup": 0,
+      "total_value": 4500000,
+      "total_gifts": 20,
+      "supplies_per_gift": "1 thùng hạt Whiskat 7kg",
+      "supplies": [
+        {
+          "item": "20 thùng hạt Whiskat mix sale",
+          "unit_price": 4500000,
+          "total_cost": 20
+        }
+      ],
+      "sponsor_notes": "Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 14,
+      "fosters": [
+        {
+          "name": "cô Diệu Hoa",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "chị Teresa Thủy",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "cô Maria Đào",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "chị Tâm Lạc (vé số)",
+          "district": "Tân Bình",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "7"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "cô Diệu Giang",
+          "district": "Sài Gòn",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "cô Diệu Hạnh / Hồng Ánh",
+          "district": "Bình Chánh",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "10"
+        },
+        {
+          "name": "cô Maria Đông Anh",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "2026-12-11 00:00:00"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "13-15"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "16-17"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "18-20"
+        }
+      ]
+    },
+    {
+      "code": "102025",
+      "label": "T10/2025",
+      "year": 2025,
+      "month": 10,
+      "title": "QUÀ T10/2025",
+      "used_fund": 5800000,
+      "admin_topup": 40000,
+      "total_value": 5840000,
+      "total_gifts": 20,
+      "supplies_per_gift": "8kg hạt Licious",
+      "supplies": [
+        {
+          "item": "8 thùng hạt mèo Licious 20kg",
+          "unit_price": 5840000,
+          "total_cost": 20
+        }
+      ],
+      "sponsor_notes": "Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 14,
+      "fosters": [
+        {
+          "name": "cô Diệu Hoa",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "chị Teresa Thủy",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "cô Maria Đào",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "chị Tâm Lạc (vé số)",
+          "district": "Tân Bình",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "7"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "Agnes Lê",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "cô Diệu Giang",
+          "district": "Sài Gòn",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "10"
+        },
+        {
+          "name": "cô Maria Đông Anh",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "2026-12-11 00:00:00"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "13-15"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "16-17"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "18-20"
+        }
+      ]
+    },
+    {
+      "code": "112025",
+      "label": "T11/2025",
+      "year": 2025,
+      "month": 11,
+      "title": "QUÀ T11/2025",
+      "used_fund": 5600000,
+      "admin_topup": 428000,
+      "total_value": 6028000,
+      "total_gifts": 24,
+      "supplies_per_gift": "6kg hạt Catta",
+      "supplies": [
+        {
+          "item": "8 tải hạt Catta 18kg",
+          "unit_price": 5200000,
+          "total_cost": 6028000
+        },
+        {
+          "item": "240 lon pate Wow 85gr",
+          "unit_price": 828000,
+          "total_cost": null
+        }
+      ],
+      "sponsor_notes": "Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 18,
+      "fosters": [
+        {
+          "name": "cô Diệu Hoa",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "chị Teresa Thủy",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "cô Maria Đào",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "chị Tâm Lạc (vé số)",
+          "district": "Tân Bình",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "7"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "Agnes Lê",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "chị Maria Nguyên",
+          "district": "Tân Phú",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "10"
+        },
+        {
+          "name": "chị Diệu Hồng",
+          "district": "Tân Phú",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "11"
+        },
+        {
+          "name": "cô Diệu Giang",
+          "district": "Sài Gòn",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "12"
+        },
+        {
+          "name": "cô Tư / Teresa Trinh",
+          "district": "Q8",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "13"
+        },
+        {
+          "name": "cô Diệu Kim",
+          "district": "Q8",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "14"
+        },
+        {
+          "name": "cô Maria Đông Anh",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "15-16"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "17-19"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "20-21"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "22-24"
+        }
+      ]
+    },
+    {
+      "code": "122025",
+      "label": "T12/2025",
+      "year": 2025,
+      "month": 12,
+      "title": "QUÀ T12/2025",
+      "used_fund": 4400000,
+      "admin_topup": 1352000,
+      "total_value": 5752000,
+      "total_gifts": 20,
+      "supplies_per_gift": "7.2kg hạt Catta",
+      "supplies": [
+        {
+          "item": "8 tải hạt Catta 18kg",
+          "unit_price": 5200000,
+          "total_cost": 5752000
+        },
+        {
+          "item": "160 lon pate Wow 85gr",
+          "unit_price": 552000,
+          "total_cost": null
+        }
+      ],
+      "sponsor_notes": "Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 16,
+      "fosters": [
+        {
+          "name": "cô Diệu Hoa",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "ngoại Tịnh Tâm",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "chị Teresa Thủy",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "Teresa Dung",
+          "district": "Bình Thạnh",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "7"
+        },
+        {
+          "name": "chị Tâm Lạc (vé số)",
+          "district": "Tân Bình",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "Cecilia Linh",
+          "district": "Gò Vấp",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "10"
+        },
+        {
+          "name": "chị Diệu Ngọc",
+          "district": "Sài Gòn",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "11"
+        },
+        {
+          "name": "Nhóm 4 cô (Têrêsa & Tâm An)",
+          "district": "Q10",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "12-13"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "14-15"
+        },
+        {
+          "name": "cô Maria Đông Anh",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "16-17"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "18-19"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 1.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "20"
+        }
+      ]
+    },
+    {
+      "code": "012026",
+      "label": "T01/2026",
+      "year": 2026,
+      "month": 1,
+      "title": "QUÀ T1/2026",
+      "used_fund": 5000000,
+      "admin_topup": 1410000,
+      "total_value": 6410000,
+      "total_gifts": 24,
+      "supplies_per_gift": "7kg hạt Tony",
+      "supplies": [
+        {
+          "item": "7 tải hạt Tony 24kg",
+          "unit_price": 4970000,
+          "total_cost": 6410000
+        },
+        {
+          "item": "4 thùng x 24 lon pate no brand 400gr",
+          "unit_price": 1440000,
+          "total_cost": null
+        }
+      ],
+      "sponsor_notes": "Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 18,
+      "fosters": [
+        {
+          "name": "cô Diệu Hoa",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "chị Teresa Thủy",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Maria Đào",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "chị Phúc An",
+          "district": "Q10",
+          "portions": 1.0,
+          "note": "đổi hạt thành pate",
+          "drive_stt": "7"
+        },
+        {
+          "name": "chị Tâm Lạc (vé số)",
+          "district": "Tân Bình",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "Agnes Lê",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "10"
+        },
+        {
+          "name": "chị Diệu Ngọc",
+          "district": "Sài Gòn",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "11"
+        },
+        {
+          "name": "Lucia Huỳnh",
+          "district": "Nhà Bè",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "12"
+        },
+        {
+          "name": "Quảng Thiện",
+          "district": "Sài Gòn",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "13"
+        },
+        {
+          "name": "chị Teresa Phương",
+          "district": "Bình Thạnh",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "14"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "15-17"
+        },
+        {
+          "name": "cô Maria Đông Anh",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác (dổi hạt Cat Ta)",
+          "drive_stt": "18-19"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "20-22"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "23-24"
+        }
+      ]
+    },
+    {
+      "code": "032026",
+      "label": "T03/2026",
+      "year": 2026,
+      "month": 3,
+      "title": "QUÀ T3/2026",
+      "used_fund": 4600000,
+      "admin_topup": 370000,
+      "total_value": 4970000,
+      "total_gifts": 24,
+      "supplies_per_gift": "7kg hạt Tony",
+      "supplies": [
+        {
+          "item": "7 tải hạt Tony 24kg",
+          "unit_price": 4970000,
+          "total_cost": 24
+        }
+      ],
+      "sponsor_notes": "Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 19,
+      "fosters": [
+        {
+          "name": "cô Diệu Hoa",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "chị Teresa Thủy",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Maria Đào",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "chị Phúc An",
+          "district": "Q10",
+          "portions": 1.0,
+          "note": "đổi hạt thành pate",
+          "drive_stt": "7"
+        },
+        {
+          "name": "chị Tâm Lạc (vé số)",
+          "district": "Tân Bình",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "chị Maria Nguyên",
+          "district": "Tân Phú",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "10"
+        },
+        {
+          "name": "chị Diệu Hồng",
+          "district": "Tân Phú",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "11"
+        },
+        {
+          "name": "cô Diệu Giang",
+          "district": "Sài Gòn",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "12"
+        },
+        {
+          "name": "cô Tư / Teresa Trinh",
+          "district": "Q8",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "13"
+        },
+        {
+          "name": "cô Diệu Kim",
+          "district": "Q8",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "14"
+        },
+        {
+          "name": "chị Teresa Phương",
+          "district": "Bình Thạnh",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "15"
+        },
+        {
+          "name": "cô Maria Đông Anh",
+          "district": "Sài Gòn",
+          "portions": 1.0,
+          "note": "đổi hạt Cat Ta 5kg",
+          "drive_stt": "16"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "17-19"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "20-22"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "23-24"
+        }
+      ]
+    },
+    {
+      "code": "042026",
+      "label": "T04/2026",
+      "year": 2026,
+      "month": 4,
+      "title": "QUÀ T4/2026",
+      "used_fund": 5100000,
+      "admin_topup": 150000,
+      "total_value": 5250000,
+      "total_gifts": 20,
+      "supplies_per_gift": "6kg hạt Licious",
+      "supplies": [
+        {
+          "item": "6 tải hạt Licious 20kg",
+          "unit_price": 4470000,
+          "total_cost": 5250000
+        },
+        {
+          "item": "200 lon pate Chaozol 85gr",
+          "unit_price": 780000,
+          "total_cost": null
+        }
+      ],
+      "sponsor_notes": "Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 16,
+      "fosters": [
+        {
+          "name": "cô Diệu Hoa",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "cô Diệu Tuyết",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Maria Đào",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "chị Phúc An",
+          "district": "Q10",
+          "portions": 1.0,
+          "note": "đổi hạt thành pate",
+          "drive_stt": "7"
+        },
+        {
+          "name": "chị Tâm Lạc (vé số)",
+          "district": "Tân Bình",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "Teresa Dung",
+          "district": "Bình Thạnh",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "10"
+        },
+        {
+          "name": "Lucia Huỳnh",
+          "district": "Sài Gòn",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "11"
+        },
+        {
+          "name": "cô Diệu Chi",
+          "district": "Q8",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "12"
+        },
+        {
+          "name": "Gioan Baotixita Khánh",
+          "district": "Bình Chánh",
+          "portions": 1.0,
+          "note": "đổi pate thành hạt",
+          "drive_stt": "13"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "14-15"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "16-18"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "19-20"
+        }
+      ]
+    },
+    {
+      "code": "062026",
+      "label": "T06/2026",
+      "year": 2026,
+      "month": 6,
+      "title": "QUÀ T6/2026",
+      "used_fund": 5600000,
+      "admin_topup": 0,
+      "total_value": 5600000,
+      "total_gifts": 21,
+      "supplies_per_gift": "6kg hạt Catta",
+      "supplies": [
+        {
+          "item": "7 tải hạt Catta 18kg",
+          "unit_price": 4760000,
+          "total_cost": 5600000
+        },
+        {
+          "item": "42 gói pate mèo con 400gr",
+          "unit_price": 840000,
+          "total_cost": null
+        }
+      ],
+      "sponsor_notes": "Phêrô Nguyễn hỗ trợ tiền ship",
+      "foster_count": 16,
+      "fosters": [
+        {
+          "name": "cô Diệu Hoa",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "1"
+        },
+        {
+          "name": "cô Maria Sinh",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "2"
+        },
+        {
+          "name": "cô Diệu Liên",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "3"
+        },
+        {
+          "name": "cô Diệu Tuyết",
+          "district": "Q1",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "4"
+        },
+        {
+          "name": "cô Maria Đào",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "5"
+        },
+        {
+          "name": "cô Diệu Hạnh",
+          "district": "Q5",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "6"
+        },
+        {
+          "name": "chị Phúc An",
+          "district": "Q10",
+          "portions": 1.0,
+          "note": "đổi hạt thành pate",
+          "drive_stt": "7"
+        },
+        {
+          "name": "chị Tâm Lạc (vé số)",
+          "district": "Tân Bình",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "8"
+        },
+        {
+          "name": "chị Martha & chị Maria",
+          "district": "Bình Tân",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "9"
+        },
+        {
+          "name": "chị Têrêsa Sáu",
+          "district": "Sài Gòn",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "10"
+        },
+        {
+          "name": "chị Maria Nguyên",
+          "district": "Tân Phú",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "11"
+        },
+        {
+          "name": "Monica Quế Trân",
+          "district": "Q2",
+          "portions": 1.0,
+          "note": null,
+          "drive_stt": "12"
+        },
+        {
+          "name": "cô Maria Đông Anh",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "13-14"
+        },
+        {
+          "name": "chị Diệu Thảo",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "15-16"
+        },
+        {
+          "name": "Catarina Trúc Linh",
+          "district": "Điều phối liên quận",
+          "portions": 3.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "17-19"
+        },
+        {
+          "name": "Maria Phạm",
+          "district": "Điều phối liên quận",
+          "portions": 2.0,
+          "note": "trung gian chia cho các foster khác",
+          "drive_stt": "20-21"
+        }
+      ]
+    }
+  ]
+};

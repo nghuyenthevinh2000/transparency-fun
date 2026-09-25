@@ -25,6 +25,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Assemble public files
         run: bash scripts/build-pages.sh "${{ runner.temp }}/transparency-fun-site"
+      - name: Verify published asset references
+        run: node scripts/check-pages.mjs "${{ runner.temp }}/transparency-fun-site"
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site

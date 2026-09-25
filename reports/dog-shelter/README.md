@@ -1,6 +1,6 @@
 ---
 name: dog-shelter
-summary: Publishable masked foster-relief data and documentation derived from a locally held source workbook.
+summary: Research notes and local foster-relief data, with reviewed browser data migrated to interactive/data/foster-relief/v1/.
 tags:
 - dog-shelter
 submodules:
@@ -12,4 +12,4 @@ submodules:
 
 # dog-shelter
 
-The masked `foster_data.json` and `foster_data.js` support the interactive reports. The source workbook is kept locally and excluded from the public repository because it contains contact information.
+Research materials and documentation for Saigon cat foster aid (2024–2026). The public browser-ready dataset has migrated to [`interactive/data/foster-relief/v1/`](../../interactive/data/foster-relief/v1/) per [`DATA.md`](../../DATA.md). The original source workbook contains private contact details and remains excluded from the public GitHub Pages artifact.

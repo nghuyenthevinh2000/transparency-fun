@@ -1,11 +1,11 @@
 /**
  * donation-timeline script.js
  * Method 2: Synchronized Interactive Timeline Bar (Playable Chronological Flow)
- * Uses standardized dataset from '../../reports/dog-shelter/foster_data.js'
+ * Uses standardized dataset from '../data/foster-relief/v1/foster_data.js'
  * Follows Open notebook design system (DESIGN.md)
  */
 
-import { FOSTER_DATA } from '../../reports/dog-shelter/foster_data.js';
+import { FOSTER_DATA } from '../data/foster-relief/v1/foster_data.js';
 
 const formatVND = (num) => new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND', maximumFractionDigits: 0 }).format(num);
 const formatShortVND = (num) => {

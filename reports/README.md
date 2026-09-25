@@ -1,12 +1,12 @@
 ---
 name: reports
-summary: Research notes and masked data supporting the interactive transparency reports.
+summary: Research notes and working documents supporting interactive transparency reports.
 tags:
 - reports
 submodules:
-  dog-shelter/: Foster-relief methods and masked publishable data, with the source workbook kept local.
+  dog-shelter/: Foster-relief research and workbook notes, with reviewed public data migrated to interactive/data/foster-relief/v1/.
 ---
 
 # Reports
 
-Research and transformed data for the interactive reports. The source workbook stays local; only masked data is published.
+Research, methodology notes, and working documents. Source workbooks stay local and private; public browser datasets are maintained under [`interactive/data/`](../interactive/data/).

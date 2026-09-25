@@ -1,12 +1,13 @@
 ---
 name: interactive
-summary: Published report registry with configurable featured selection and optional per-report covers, plus standalone HTML/CSS/JS report folders.
+summary: Published report registry, standalone interactive reports, and a versioned public-data namespace for shared browser data.
 tags:
 - transparency-fun
 - reports
 - interactive
 - modules
 submodules:
+  data/: Versioned public datasets shared by interactive reports.
   donation-epochs/: Interactive foster-aid flow report with its own cover artwork.
   donation-timeline/: Playable chronological timeline report stepping month-by-month
     through 22 foster relief cycles (2024–2026), 122.58M VND in donations, and 42
@@ -30,3 +31,5 @@ cover: {
 ```
 
 The `src` is relative to the site homepage. SVG, PNG, JPG, and WebP files are included in the Pages build. Omit `cover` to keep the default art. The card and featured slot crop images to different shapes; center the important artwork and check both slots at mobile and desktop sizes. Keep essential words in the card's HTML title rather than at an image edge.
+
+For shared data, use [`data/`](./data/) and follow the versioned public-data contract in [`../DATA.md`](../DATA.md).
