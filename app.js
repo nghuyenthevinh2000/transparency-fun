@@ -1,4 +1,7 @@
 import { reports, futureSlots } from './interactive/index.js';
+import { initSoundToggle } from './sound.js';
+
+initSoundToggle();
 
 const grid = document.getElementById('report-grid');
 const featured = reports.find((report) => report.featured) ?? reports[0];

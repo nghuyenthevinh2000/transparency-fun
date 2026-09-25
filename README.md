@@ -8,6 +8,7 @@ tags:
 submodules:
   .gitignore: Excludes local machine files, screenshots, build output, and a source workbook containing contact information.
   .github/: GitHub Pages Actions deployment configuration.
+  assets/: Shared static media assets including ambient audio.
   brand/: Persistent brand context and current messaging for Transparency Fun's curiosity-led
     transparency positioning.
   interactive/: Featured report registry, standalone report folders, and versioned public data.
@@ -16,6 +17,7 @@ submodules:
   DESIGN.md: Transparency Fun design system
   DATA.md: Versioned public-data location, loading, provenance, and migration standard.
   app.js: Renders directory cards, optional cover images, and the selected featured report from the registry.
+  sound.js: Ambient background audio controller with volume fading and session continuity.
   index.html: Transparency Fun — Transparency, made fun to explore. — Transparency,made
     fun.
   infographic.css: File infographic.css

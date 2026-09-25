@@ -14,7 +14,18 @@
 <body id="top">
   <header class="site-header wrap">
     <a class="wordmark" href="../../" aria-label="Transparency Fun home">transparency<span>.</span>fun</a>
-    <nav aria-label="Main navigation"><a href="../../#reports">Explore reports</a><a href="../../#about">About the project</a></nav>
+    <div class="site-header-actions">
+      <nav aria-label="Main navigation"><a href="../../#reports">Explore reports</a><a href="../../#about">About the project</a></nav>
+      <button id="sound-toggle" class="sound-toggle" type="button" aria-label="Play ambient background music" aria-pressed="false">
+        <span class="sound-bars" aria-hidden="true">
+          <span class="sound-bar bar-1"></span>
+          <span class="sound-bar bar-2"></span>
+          <span class="sound-bar bar-3"></span>
+        </span>
+        <span class="sound-label">SOUND: OFF</span>
+      </button>
+      <audio id="ambient-audio" preload="none"></audio>
+    </div>
   </header>
 
   <main class="wrap report-wrap">

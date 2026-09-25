@@ -6,6 +6,9 @@
  */
 
 import { FOSTER_DATA } from '../data/foster-relief/v1/foster_data.js';
+import { initSoundToggle } from '../../sound.js';
+
+initSoundToggle();
 
 const formatVND = (num) => new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND', maximumFractionDigits: 0 }).format(num);
 const formatShortVND = (num) => {
