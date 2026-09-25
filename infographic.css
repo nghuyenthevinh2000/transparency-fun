@@ -1,0 +1,7 @@
+/* Ratio belongs to the visualization, not to the surrounding report page. */
+.infographic-frame { width:100%; margin-inline:auto; container-type:inline-size; }
+.infographic-frame[data-format="16:9"] { max-width:1240px; }
+.infographic-frame[data-format="9:16"] { max-width:440px; }
+.infographic-canvas { width:100%; aspect-ratio:16 / 9; overflow:hidden; background:var(--sage); border:1px solid var(--ink); }
+.infographic-frame[data-format="9:16"] .infographic-canvas { aspect-ratio:9 / 16; }
+.infographic-frame figcaption { padding-top:12px; font:500 11px/1.5 var(--mono); color:var(--muted); }

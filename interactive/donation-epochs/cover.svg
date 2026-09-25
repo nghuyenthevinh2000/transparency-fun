@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title description">
+  <title id="title">A donation moving through a network</title>
+  <desc id="description">A central orange fund branches into five smaller care nodes connected by ink lines.</desc>
+  <rect width="600" height="600" fill="#e7eadf"/>
+  <g fill="none" stroke="#bdc8bb" stroke-width="1">
+    <path d="M0 100h600M0 200h600M0 300h600M0 400h600M0 500h600"/>
+    <path d="M100 0v600M200 0v600M300 0v600M400 0v600M500 0v600"/>
+  </g>
+  <g fill="none" stroke="#202822" stroke-width="2">
+    <path d="M56 301h125c40 0 49-67 97-67h52"/>
+    <path d="M56 301h133c41 0 45 70 91 70h47"/>
+    <path d="M332 301h76c46 0 41-106 88-106h50"/>
+    <path d="M332 301h106c33 0 30 0 77 0h29"/>
+    <path d="M332 301h76c46 0 41 105 88 105h50"/>
+    <circle cx="300" cy="301" r="97"/>
+    <circle cx="300" cy="301" r="113" stroke="#84998a" stroke-dasharray="4 8"/>
+  </g>
+  <g fill="#202822">
+    <circle cx="56" cy="301" r="9"/>
+    <circle cx="544" cy="195" r="9"/>
+    <circle cx="544" cy="301" r="9"/>
+    <circle cx="544" cy="406" r="9"/>
+  </g>
+  <circle cx="300" cy="301" r="79" fill="#de5e3b"/>
+  <circle cx="300" cy="301" r="23" fill="#f3f0e7"/>
+  <g fill="#202822" font-family="monospace" font-size="13" letter-spacing="2">
+    <text x="33" y="280">GIVE</text>
+    <text x="475" y="171">CARE</text>
+    <text x="474" y="278">FOOD</text>
+    <text x="465" y="447">SHELTER</text>
+  </g>
+</svg>

@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f0e7">
+  <meta name="description" content="An interactive 5-stage flow report exploring 122.58M VND in donations across 3 time epochs (2024–2026), 22 masked benefactors, and 42 Saigon cat foster shelters.">
+  <title>Where did 122M VND in foster aid go? — Transparency Fun</title>
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="stylesheet" href="../../infographic.css">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="script.js"></script>
+</head>
+<body id="top">
+  <header class="site-header wrap">
+    <a class="wordmark" href="../../" aria-label="Transparency Fun home">transparency<span>.</span>fun</a>
+    <nav aria-label="Main navigation"><a href="../../#reports">Explore reports</a><a href="../../#about">About the project</a></nav>
+  </header>
+
+  <main class="wrap report-wrap">
+    <a class="back-link" href="../../#reports">← BACK TO THE INDEX</a>
+    <header class="report-header">
+      <div>
+        <p class="eyebrow">REPORT 001 / ANIMAL RESCUE & TRANSPARENCY</p>
+        <h1>Where did 122M VND<br>in foster aid go?</h1>
+      </div>
+      <p>Trace 122,580,000 VND across three years (2024–2026) from 22 masked benefactors through bulk nutrition orders to 42 foster shelters across Saigon.</p>
+    </header>
+
+    <div class="report-body">
+      <section class="control-panel" aria-labelledby="controls-title">
+        <p class="report-label">TIME EPOCH ARCHITECTURE</p>
+        <h2 id="controls-title">Filter by epoch.</h2>
+        <p>Select a time period or cycle to trace exact donation inflows, purchased provisions, and recipient shelters.</p>
+
+        <div class="control">
+          <div class="control-row">
+            <span class="control-label">TIME HORIZON</span>
+            <output id="active-epoch-label">ALL (2024–2026)</output>
+          </div>
+          <div class="epoch-button-group" role="group" aria-label="Time epochs">
+            <button type="button" class="epoch-btn is-active" data-epoch="all">All (3 Years)</button>
+            <button type="button" class="epoch-btn" data-epoch="2024">2024 (9 cycles)</button>
+            <button type="button" class="epoch-btn" data-epoch="2025">2025 (9 cycles)</button>
+            <button type="button" class="epoch-btn" data-epoch="2026">2026 (4 cycles)</button>
+          </div>
+        </div>
+
+        <div class="control">
+          <div class="control-row">
+            <span class="control-label">SPECIFIC DISTRIBUTION CYCLE</span>
+            <output id="active-cycle-label">All 22 Batches</output>
+          </div>
+          <div class="cycle-pill-group" id="cycle-pills-container" aria-label="Monthly cycles">
+            <!-- Populated dynamically by script.js -->
+          </div>
+        </div>
+
+        <div class="control">
+          <div class="control-row">
+            <span class="control-label">DISTRICT FILTER</span>
+            <output id="active-district-label">All Districts</output>
+          </div>
+          <div class="district-pill-group" id="district-pills-container" aria-label="District filters">
+            <button type="button" class="district-btn is-active" data-district="all">All (11 Hubs)</button>
+            <button type="button" class="district-btn" data-district="Q1">Quận 1</button>
+            <button type="button" class="district-btn" data-district="Q5">Quận 5</button>
+            <button type="button" class="district-btn" data-district="Q10">Quận 10</button>
+            <button type="button" class="district-btn" data-district="Bình Thạnh">Bình Thạnh</button>
+            <button type="button" class="district-btn" data-district="Tân Bình">Tân Bình</button>
+            <button type="button" class="district-btn" data-district="Bình Tân">Bình Tân</button>
+            <button type="button" class="district-btn" data-district="Tân Phú">Tân Phú</button>
+            <button type="button" class="district-btn" data-district="Gò Vấp">Gò Vấp</button>
+            <button type="button" class="district-btn" data-district="Nhà Bè">Nhà Bè</button>
+          </div>
+        </div>
+
+        <p class="method-note">
+          <strong>Data Provenance:</strong> Audited from 2024–2026 monthly transparency logs. All benefactor and foster names are masked using Buddhist Dharma and Catholic names for privacy while maintaining 100% financial and physical unit integrity.
+        </p>
+      </section>
+
+      <section class="result-panel" aria-labelledby="flow-title">
+        <div class="result-header">
+          <div>
+            <p class="eyebrow">5-STAGE FLOW VISUALIZATION</p>
+            <h2 id="flow-title">Trace the flow.</h2>
+          </div>
+          <div class="summary-metric-cards">
+            <div class="kpi-mini">
+              <span class="kpi-mini-label">FUND INFLOW</span>
+              <strong id="kpi-inflow">122,580,000 ₫</strong>
+            </div>
+            <div class="kpi-mini">
+              <span class="kpi-mini-label">TOTAL DISBURSED</span>
+              <strong id="kpi-disbursed">104,500,000 ₫</strong>
+            </div>
+            <div class="kpi-mini">
+              <span class="kpi-mini-label">SHELTERS SERVED</span>
+              <strong id="kpi-shelters">42 Homes</strong>
+            </div>
+          </div>
+        </div>
+
+        <p class="flow-instruction">Hover or click any node to trace its complete path from funding epoch to foster bowls.</p>
+
+        <!-- 16:9 Standard Infographic Frame and Canvas -->
+        <figure class="infographic-frame" data-format="16:9">
+          <div class="infographic-canvas" id="infographic-canvas">
+            <div class="flow-columns" id="flow-columns-container">
+              <!-- Column 1: Time Epoch -->
+              <div class="flow-col" data-stage="1">
+                <h3 class="col-title">1. Time Epoch</h3>
+                <div class="col-cards" id="stage-epoch-cards"></div>
+              </div>
+
+              <!-- Column 2: Benefactors -->
+              <div class="flow-col" data-stage="2">
+                <h3 class="col-title">2. Benefactors</h3>
+                <div class="col-cards" id="stage-donor-cards"></div>
+              </div>
+
+              <!-- Column 3: Central Fund Pool -->
+              <div class="flow-col" data-stage="3">
+                <h3 class="col-title">3. Central Fund</h3>
+                <div class="col-cards" id="stage-fund-cards"></div>
+              </div>
+
+              <!-- Column 4: Provisions -->
+              <div class="flow-col" data-stage="4">
+                <h3 class="col-title">4. Provisions</h3>
+                <div class="col-cards" id="stage-provision-cards"></div>
+              </div>
+
+              <!-- Column 5: Foster Groups -->
+              <div class="flow-col" data-stage="5">
+                <h3 class="col-title">5. Foster Shelters</h3>
+                <div class="col-cards" id="stage-foster-cards"></div>
+              </div>
+            </div>
+          </div>
+          <figcaption>FIGURE 01 · 5-STAGE CHRONOLOGICAL FLOW (STANDARD 16:9 CANVAS)</figcaption>
+        </figure>
+
+        <!-- Inspector Drawer: Live Audited Inspection -->
+        <div class="inspector-drawer" id="inspector-drawer" aria-live="polite">
+          <div class="inspector-header">
+            <span class="inspector-tag" id="inspector-tag">ACTIVE SELECTION INSPECTOR</span>
+            <h4 id="inspector-title">All Epochs (2024–2026 Overview)</h4>
+          </div>
+          <div class="inspector-content" id="inspector-content">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="report-question" aria-labelledby="questions-title">
+      <p class="eyebrow">TAKE IT INTO THE REAL WORLD</p>
+      <h2 id="questions-title">Questions worth asking.</h2>
+      <ul>
+        <li>
+          <strong>How much reaches direct nutrition?</strong>
+          In this fund, 100% of disbursed donations went directly to food. Delivery fees across all 22 cycles were sponsored by Phêrô Nguyễn, and administrative deficits were topped up out-of-pocket by admins.
+        </li>
+        <li>
+          <strong>Can delivery be verified independently?</strong>
+          Every monthly batch includes a public photo album index with STT markers linking each delivered portion to the recipient shelter.
+        </li>
+        <li>
+          <strong>How is emergency resilience maintained?</strong>
+          Beyond monthly dry food and wet food distributions, the central fund maintains an unallocated reserve balance for emergency veterinary rescue.
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <a class="wordmark" href="../../">transparency<span>.</span>fun</a>
+    <span>INTERACTIVE REPORTS FOR CURIOUS PEOPLE</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+</body>
+</html>

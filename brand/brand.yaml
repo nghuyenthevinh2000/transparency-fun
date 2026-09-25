@@ -1,0 +1,28 @@
+schema_version: 1
+slug: transparency-fun
+name: Transparency Fun
+one_liner: Interactive reports that make transparency fun to explore.
+tagline: "Transparency, made fun to explore."
+archetype: ""
+status: active
+stage: ""
+industry: ""
+languages: [en]
+links:
+  domain: ""
+  repo: ""
+created: 2026-09-25
+updated: 2026-09-25
+version: 1
+artifacts:
+  context: true
+  naming: false
+  strategy: false
+  architecture: false
+  identity: false
+  voice: false
+  messaging: true
+  positioning: false
+  story: false
+  guidelines: false
+  audit: false

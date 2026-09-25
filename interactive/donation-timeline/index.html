@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f0e7">
+  <meta name="description" content="An animated month-by-month timeline stepping through 22 pet food distribution cycles (2024–2026) funded by 122.58M VND from 22 benefactors to 42 Saigon foster shelters.">
+  <title>Playing back 22 foster cycles — Transparency Fun</title>
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="stylesheet" href="../../infographic.css">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="script.js"></script>
+</head>
+<body id="top">
+  <header class="site-header wrap">
+    <a class="wordmark" href="../../" aria-label="Transparency Fun home">transparency<span>.</span>fun</a>
+    <nav aria-label="Main navigation"><a href="../../#reports">Explore reports</a><a href="../../#about">About the project</a></nav>
+  </header>
+
+  <main class="wrap report-wrap">
+    <a class="back-link" href="../../#reports">← BACK TO THE INDEX</a>
+    <header class="report-header">
+      <div>
+        <p class="eyebrow">REPORT 002 / ANIMAL RESCUE & CHRONOLOGY</p>
+        <h1>Playing back 22<br>foster cycles.</h1>
+      </div>
+      <p>An animated month-by-month journey through 122,580,000 VND of community aid: watch donations flow, bulk kibble ship, and 42 foster shelters receive care from 2024 to 2026.</p>
+    </header>
+
+    <div class="report-body">
+      <section class="control-panel" aria-labelledby="controls-title">
+        <p class="report-label">PLAYBACK ENGINE</p>
+        <h2 id="controls-title">Control the timeline.</h2>
+        <p>Step through 22 distribution cycles month-by-month, or toggle cumulative growth to watch the fund compound over time.</p>
+
+        <!-- Playback Controls -->
+        <div class="control">
+          <div class="control-row">
+            <span class="control-label">TIMELINE PLAYBACK</span>
+            <output id="playback-status-label">PAUSED (CYCLE 1/22)</output>
+          </div>
+          <div class="playback-btn-row">
+            <button type="button" class="play-btn" id="play-btn" aria-label="Play timeline animation">▶ PLAY</button>
+            <button type="button" class="step-btn" id="prev-btn" aria-label="Previous cycle">◄ PREV</button>
+            <button type="button" class="step-btn" id="next-btn" aria-label="Next cycle">NEXT ►</button>
+          </div>
+        </div>
+
+        <!-- Mode Toggle -->
+        <div class="control">
+          <div class="control-row">
+            <span class="control-label">VIEWING MODE</span>
+            <output id="active-mode-label">Discrete Cycle</output>
+          </div>
+          <div class="mode-button-group">
+            <button type="button" class="mode-btn is-active" data-mode="discrete">Single Cycle</button>
+            <button type="button" class="mode-btn" data-mode="cumulative">Cumulative Growth</button>
+          </div>
+        </div>
+
+        <!-- Speed Toggle -->
+        <div class="control">
+          <div class="control-row">
+            <span class="control-label">PLAYBACK SPEED</span>
+            <output id="active-speed-label">1.0x Normal</output>
+          </div>
+          <div class="speed-button-group">
+            <button type="button" class="speed-btn is-active" data-speed="1200">1.0x (1.2s)</button>
+            <button type="button" class="speed-btn" data-speed="600">2.0x (0.6s)</button>
+          </div>
+        </div>
+
+        <!-- District Filter -->
+        <div class="control">
+          <div class="control-row">
+            <span class="control-label">DISTRICT FILTER</span>
+            <output id="active-district-label">All Districts</output>
+          </div>
+          <div class="district-pill-group" id="district-pills-container">
+            <button type="button" class="district-btn is-active" data-district="all">All (11 Hubs)</button>
+            <button type="button" class="district-btn" data-district="Q1">Quận 1</button>
+            <button type="button" class="district-btn" data-district="Q5">Quận 5</button>
+            <button type="button" class="district-btn" data-district="Q10">Quận 10</button>
+            <button type="button" class="district-btn" data-district="Bình Thạnh">Bình Thạnh</button>
+            <button type="button" class="district-btn" data-district="Tân Bình">Tân Bình</button>
+            <button type="button" class="district-btn" data-district="Bình Tân">Bình Tân</button>
+            <button type="button" class="district-btn" data-district="Tân Phú">Tân Phú</button>
+            <button type="button" class="district-btn" data-district="Gò Vấp">Gò Vấp</button>
+            <button type="button" class="district-btn" data-district="Nhà Bè">Nhà Bè</button>
+          </div>
+        </div>
+
+        <p class="method-note">
+          <strong>Interactive Model:</strong> Click any month pip along the timeline track to seek directly to that cycle. Press <code>Space</code> to play/pause, and <code>←/→</code> arrow keys to step cycles.
+        </p>
+      </section>
+
+      <section class="result-panel" aria-labelledby="flow-title">
+        <div class="result-header">
+          <div>
+            <p class="eyebrow">CHRONOLOGICAL FLOW ANIMATION</p>
+            <h2 id="flow-title">Watch the care arrive.</h2>
+          </div>
+          <div class="summary-metric-cards">
+            <div class="kpi-mini">
+              <span class="kpi-mini-label">ACTIVE CYCLE</span>
+              <strong id="kpi-cycle">T02/2024</strong>
+            </div>
+            <div class="kpi-mini">
+              <span class="kpi-mini-label">CYCLE INVOICE</span>
+              <strong id="kpi-spending">6,300,000 ₫</strong>
+            </div>
+            <div class="kpi-mini">
+              <span class="kpi-mini-label">SHELTERS SERVED</span>
+              <strong id="kpi-fosters">13 Shelters</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Timeline Track Scrubber -->
+        <div class="timeline-scrubber" id="timeline-scrubber">
+          <div class="timeline-meta">
+            <span class="timeline-date-start">FEB 2024 (START)</span>
+            <span class="timeline-current-date" id="timeline-current-date">CYCLE 01 · THÁNG 02/2024</span>
+            <span class="timeline-date-end">JUN 2026 (PRESENT)</span>
+          </div>
+          <div class="timeline-track" id="timeline-track" role="slider" aria-label="Timeline cycle scrubber" tabindex="0">
+            <div class="timeline-progress-fill" id="timeline-progress-fill"></div>
+            <div class="timeline-pips" id="timeline-pips"></div>
+          </div>
+        </div>
+
+        <!-- Special Event / Milestone Banner -->
+        <div class="event-banner" id="event-banner">
+          <span class="event-icon">★</span>
+          <span class="event-text" id="event-text">Phêrô Nguyễn tài trợ 100% chi phí vận chuyển toàn bộ các phần quà trong đợt này.</span>
+        </div>
+
+        <!-- Standard 16:9 Canvas Frame -->
+        <figure class="infographic-frame" data-format="16:9">
+          <div class="infographic-canvas" id="infographic-canvas">
+            <div class="flow-columns" id="flow-columns-container">
+              <!-- Stage 1: Active Benefactors -->
+              <div class="flow-col" data-stage="1">
+                <h3 class="col-title">1. Benefactors</h3>
+                <div class="col-cards" id="stage-donor-cards"></div>
+              </div>
+
+              <!-- Stage 2: Central Fund & Admin Support -->
+              <div class="flow-col" data-stage="2">
+                <h3 class="col-title">2. Central Fund</h3>
+                <div class="col-cards" id="stage-fund-cards"></div>
+              </div>
+
+              <!-- Stage 3: Provisions Purchased -->
+              <div class="flow-col" data-stage="3">
+                <h3 class="col-title">3. Provisions</h3>
+                <div class="col-cards" id="stage-provision-cards"></div>
+              </div>
+
+              <!-- Stage 4: Recipient Foster Shelters -->
+              <div class="flow-col" data-stage="4">
+                <h3 class="col-title">4. Foster Shelters</h3>
+                <div class="col-cards" id="stage-foster-cards"></div>
+              </div>
+            </div>
+          </div>
+          <figcaption>FIGURE 01 · PLAYABLE CHRONOLOGICAL DONATION FLOW (STANDARD 16:9 CANVAS)</figcaption>
+        </figure>
+
+        <!-- Inspector Drawer: Detailed Cycle Invoice & Drive Verification -->
+        <div class="inspector-drawer" id="inspector-drawer" aria-live="polite">
+          <div class="inspector-header">
+            <span class="inspector-tag" id="inspector-tag">ACTIVE CYCLE AUDIT INVOICE</span>
+            <h4 id="inspector-title">Đợt Trao Quà Tháng 02/2024</h4>
+          </div>
+          <div class="inspector-content" id="inspector-content">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="report-question" aria-labelledby="questions-title">
+      <p class="eyebrow">TAKE IT INTO THE REAL WORLD</p>
+      <h2 id="questions-title">Questions worth asking.</h2>
+      <ul>
+        <li>
+          <strong>Why is chronological playback essential for transparency?</strong>
+          Single summary totals obscure whether aid arrived steadily or in irregular bursts. Stepping through 22 cycles proves that cat shelters received steady monthly rations without gaps.
+        </li>
+        <li>
+          <strong>How do admin top-ups protect food deliveries?</strong>
+          When monthly bulk food costs exceeded available fund distributions, administrators paid the difference out-of-pocket rather than reducing food rations for the cats.
+        </li>
+        <li>
+          <strong>How is proof preserved across years?</strong>
+          Every cycle retains an immutable photo record index in Google Drive (#STT 1–20+), allowing donors to verify their specific gift reach the bowls.
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <a class="wordmark" href="../../">transparency<span>.</span>fun</a>
+    <span>INTERACTIVE REPORTS FOR CURIOUS PEOPLE</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+</body>
+</html>
