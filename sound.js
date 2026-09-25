@@ -249,8 +249,12 @@ export function initSoundToggle({
     sessionStorage.setItem(posKey, String(audio.currentTime));
   });
 
-  // Check if previously opted in
-  if (sessionStorage.getItem(storageKey) === 'playing') {
+  // Sound on by default unless explicitly paused by the user
+  const isUserPaused = sessionStorage.getItem(storageKey) === 'paused';
+  if (!isUserPaused) {
+    sessionStorage.setItem(storageKey, 'playing');
+    setPlayingUI();
+
     loadCurrentTrack(true).then(() => {
       audio.volume = 0;
       audio.play().then(() => {
@@ -258,8 +262,20 @@ export function initSoundToggle({
         setPlayingUI();
         fadeTo(targetVolume, fadeDurationMs);
       }).catch(() => {
-        // Browser autoplay restriction without user gesture
-        setPausedUI();
+        // Modern browser autoplay restrictions block unmuted audio without user interaction.
+        // Begin playing seamlessly on the visitor's first gesture anywhere on the document.
+        const startOnFirstGesture = () => {
+          if (sessionStorage.getItem(storageKey) !== 'paused' && audio.paused) {
+            audio.play().then(() => {
+              consecutiveErrors = 0;
+              setPlayingUI();
+              fadeTo(targetVolume, fadeDurationMs);
+            }).catch(() => {});
+          }
+        };
+        ['pointerdown', 'keydown', 'touchstart', 'click'].forEach((evt) => {
+          window.addEventListener(evt, startOnFirstGesture, { once: true, passive: true });
+        });
       });
     });
   } else {
