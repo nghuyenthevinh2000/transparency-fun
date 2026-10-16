@@ -1,27 +1,30 @@
 ---
 name: transparency-fun
-summary: Transparency Fun static site with interactive reports, a versioned public-data standard, configurable covers, and GitHub Pages deployment.
+summary: Transparency Fun static site with interactive reports, a versioned public-data
+  standard, configurable covers, and GitHub Pages deployment.
 tags:
 - transparency-fun
 - projects
 - web-design
 submodules:
-  .gitignore: Excludes local machine files, screenshots, build output, and a source workbook containing contact information.
-  .github/: GitHub Pages Actions deployment configuration.
-  assets/: Shared static media assets including ambient audio.
+  assets/: Shared static media assets for Transparency Fun, including audio and public
+    multimedia.
   brand/: Persistent brand context and current messaging for Transparency Fun's curiosity-led
     transparency positioning.
-  interactive/: Featured report registry, standalone report folders, and versioned public data.
-  reports/: Documentation and resources for projects/transparency-fun/reports.
-  scripts/: GitHub Pages packaging of public web assets and the masked data needed by reports.
+  interactive/: Published report registry, standalone interactive reports, and a versioned
+    public-data namespace for shared browser data.
+  reports/: Research notes and working documents supporting interactive transparency
+    reports.
+  scripts/: Public-only site packaging and local-reference validation for Transparency
+    Fun's GitHub Pages deployment.
+  DATA.md: Public data standard
   DESIGN.md: Transparency Fun design system
-  DATA.md: Versioned public-data location, loading, provenance, and migration standard.
-  app.js: Renders directory cards, optional cover images, and the selected featured report from the registry.
-  sound.js: Ambient background audio controller with volume fading and session continuity.
+  app.js: File app.js
   index.html: Transparency Fun — Transparency, made fun to explore. — Transparency,made
     fun.
   infographic.css: File infographic.css
-  styles.css: Shared Open notebook styling with default artwork and contained per-report cover images.
+  sound.js: File sound.js
+  styles.css: File styles.css
 ---
 
 # transparency-fun

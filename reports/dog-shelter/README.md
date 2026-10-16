@@ -1,9 +1,11 @@
 ---
 name: dog-shelter
-summary: Research notes and local foster-relief data, with reviewed browser data migrated to interactive/data/foster-relief/v1/.
+summary: Research notes and local foster-relief data, with reviewed browser data migrated
+  to interactive/data/foster-relief/v1/.
 tags:
 - dog-shelter
 submodules:
+  Danh sách hỗ trợ foster SG (2024-2026).xlsx: File Danh sách hỗ trợ foster SG (2024-2026).xlsx
   donation_flow_methods.md: 'Interactive Donation Flow Infographics: Two Implementation
     Methods'
   foster_data.js: File foster_data.js

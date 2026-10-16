@@ -1,12 +1,17 @@
 ---
 name: brand
-summary: Persistent brand context and current messaging for Transparency Fun's curiosity-led transparency positioning.
-tags: [transparency-fun, brand, messaging]
+summary: Persistent brand context and current messaging for Transparency Fun's curiosity-led
+  transparency positioning.
+tags:
+- transparency-fun
+- brand
+- messaging
 submodules:
-  brand.yaml: Brand manifest with the chosen motto and artifact state.
-  context.md: Audience, purpose, and positioning based on the project.
-  messaging.md: Current motto and usage guidance for the website and future reports.
-  assets/: Reserved folder for future brand assets.
+  assets/: Reserved space for future Transparency Fun brand assets such as identity
+    artwork and font files.
+  brand.yaml: File brand.yaml
+  context.md: Brand context
+  messaging.md: Brand messaging
 ---
 
 # Transparency Fun brand

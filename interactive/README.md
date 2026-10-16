@@ -1,18 +1,22 @@
 ---
 name: interactive
-summary: Published report registry, standalone interactive reports, and a versioned public-data namespace for shared browser data.
+summary: Published report registry, standalone interactive reports, and a versioned
+  public-data namespace for shared browser data.
 tags:
 - transparency-fun
 - reports
 - interactive
 - modules
 submodules:
-  data/: Versioned public datasets shared by interactive reports.
-  donation-epochs/: Interactive foster-aid flow report with its own cover artwork.
+  data/: Reserved namespace for versioned, reviewed public datasets shared by interactive
+    reports.
+  donation-epochs/: Interactive multi-stage foster-aid flow report with its own directory
+    cover artwork, exploring 122.58M VND across 3 time epochs (2024–2026), 22 benefactors,
+    and 42 Saigon shelters.
   donation-timeline/: Playable chronological timeline report stepping month-by-month
     through 22 foster relief cycles (2024–2026), 122.58M VND in donations, and 42
     Saigon shelters.
-  index.js: Published report metadata, featured flag, optional cover paths, destinations, and future slots.
+  index.js: File index.js
 ---
 
 # Interactive reports

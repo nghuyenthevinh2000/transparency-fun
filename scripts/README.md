@@ -1,10 +1,15 @@
 ---
 name: scripts
-summary: Public-only site packaging and local-reference validation for Transparency Fun's GitHub Pages deployment.
-tags: [deployment, static-site, github-pages]
+summary: Public-only site packaging and local-reference validation for Transparency
+  Fun's GitHub Pages deployment.
+tags:
+- deployment
+- static-site
+- github-pages
 submodules:
-  build-pages.sh: Copies public web assets, media from assets/, and versioned datasets from interactive/ into a Pages artifact.
-  check-pages.mjs: Checks packaged HTML, CSS, JS imports, and literal fetches for missing local files.
+  build-pages.sh: Publish shared static media assets (audio, visuals), without README
+    or working notes.
+  check-pages.mjs: File check-pages.mjs
 ---
 
 # Site build

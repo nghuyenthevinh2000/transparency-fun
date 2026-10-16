@@ -1,10 +1,12 @@
 ---
 name: reports
-summary: Research notes and working documents supporting interactive transparency reports.
+summary: Research notes and working documents supporting interactive transparency
+  reports.
 tags:
 - reports
 submodules:
-  dog-shelter/: Foster-relief research and workbook notes, with reviewed public data migrated to interactive/data/foster-relief/v1/.
+  dog-shelter/: Research notes and local foster-relief data, with reviewed browser
+    data migrated to interactive/data/foster-relief/v1/.
 ---
 
 # Reports

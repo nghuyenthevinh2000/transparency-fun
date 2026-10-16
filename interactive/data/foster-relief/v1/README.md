@@ -1,14 +1,15 @@
 ---
 name: v1
-summary: Reviewed browser-ready dataset of Saigon cat foster relief (2024–2026), covering 22 cycles, 122.58M VND, 22 benefactors, and 42 foster groups.
+summary: Reviewed browser-ready dataset of Saigon cat foster relief (2024–2026), covering
+  22 cycles, 122.58M VND, 22 benefactors, and 42 foster groups.
 tags:
 - foster-relief
 - public-data
 - v1
 - dataset
 submodules:
-  foster_data.js: ES module exporting FOSTER_DATA object for interactive reports.
-  foster_data.json: Canonical JSON dataset representing reviewed records.
+  foster_data.js: File foster_data.js
+  foster_data.json: File foster_data.json
 ---
 
 # Foster-relief dataset v1
