@@ -1,15 +1,3 @@
----
-name: assets
-summary: Shared static media assets for Transparency Fun, including audio and public
-  multimedia.
-tags:
-- assets
-- media
-- audio
-submodules:
-  tracks.json: File tracks.json
----
-
 # Assets
 
 Shared static media assets published with the public site.

@@ -1,32 +1,3 @@
----
-name: transparency-fun
-summary: Transparency Fun static site with interactive reports, a versioned public-data
-  standard, configurable covers, and GitHub Pages deployment.
-tags:
-- transparency-fun
-- projects
-- web-design
-submodules:
-  assets/: Shared static media assets for Transparency Fun, including audio and public
-    multimedia.
-  brand/: Persistent brand context and current messaging for Transparency Fun's curiosity-led
-    transparency positioning.
-  interactive/: Published report registry, standalone interactive reports, and a versioned
-    public-data namespace for shared browser data.
-  reports/: Research notes and working documents supporting interactive transparency
-    reports.
-  scripts/: Public-only site packaging and local-reference validation for Transparency
-    Fun's GitHub Pages deployment.
-  DATA.md: Public data standard
-  DESIGN.md: Transparency Fun design system
-  app.js: File app.js
-  index.html: Transparency Fun — Transparency, made fun to explore. — Transparency,made
-    fun.
-  infographic.css: File infographic.css
-  sound.js: File sound.js
-  styles.css: File styles.css
----
-
 # transparency-fun
 
 Open `index.html` through a local HTTP server to browse the directory and its interactive reports. The shared Open notebook design rules are documented in [`DESIGN.md`](./DESIGN.md).

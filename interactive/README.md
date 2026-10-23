@@ -1,24 +1,3 @@
----
-name: interactive
-summary: Published report registry, standalone interactive reports, and a versioned
-  public-data namespace for shared browser data.
-tags:
-- transparency-fun
-- reports
-- interactive
-- modules
-submodules:
-  data/: Reserved namespace for versioned, reviewed public datasets shared by interactive
-    reports.
-  donation-epochs/: Interactive multi-stage foster-aid flow report with its own directory
-    cover artwork, exploring 122.58M VND across 3 time epochs (2024–2026), 22 benefactors,
-    and 42 Saigon shelters.
-  donation-timeline/: Playable chronological timeline report stepping month-by-month
-    through 22 foster relief cycles (2024–2026), 122.58M VND in donations, and 42
-    Saigon shelters.
-  index.js: File index.js
----
-
 # Interactive reports
 
 To publish a report, create a folder with `index.html`, `styles.css`, `script.js`, and `README.md`, then register its URL and metadata in `index.js`. Give it the number of an existing future slot to replace that slot automatically. Each report loads directly at its own URL; remaining future slots are non-interactive.
